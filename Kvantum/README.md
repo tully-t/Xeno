@@ -62,3 +62,14 @@ Xeno is a dark theme for Kvantum with colorful gradients, transparency, and a ra
 
 - The sections below, beginning with PanelButtonCommand, provide the corresponding variables to their named component. Essentially all components inherit PanelButtonCommand or GenericFrame. In the case of Xeno, PanelButtonTool takes its frame and interior elements from combo, rather than button, in order to avoid an unnecessary border when toolbar buttons are hovered
 
+## Contributing
+
+Please open an issue if you notice any bugs, errors, or unexpected behavior.
+
+## License
+
+This project is licensed under the GPL v3.0 License.
+
+## Acknowledgments
+
+The Xeno Kvantum theme is originally based on the [Sweet Theme](https://github.com/EliverLara/Sweet-kde) by Eliver Lara.
