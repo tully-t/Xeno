@@ -126,7 +126,7 @@ Please open an issue if you notice any bugs, errors, or unexpected behavior.
 
 ## License
 
-This project is licensed under the GPL v3.0 License - see the [LICENSE.md](LICENSE.md) file for details
+This project is licensed under the GPL v3.0 License
 
 ## Acknowledgments
 
