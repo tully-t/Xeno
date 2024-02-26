@@ -17,11 +17,11 @@ Xeno is a dark theme for Kvantum with colorful gradients, transparency, and a ra
 ## Recommendations:
 
 - Use the Xeno color scheme
-- use the Xeno Aurorae window decoration theme
-- use the Sour icon pack
-- use Xeno Konsole theme
-- use the Xeno-gtk GTK theme
-- use the Xenofox Firefox theme
+- Use the Xeno Aurorae window decoration theme
+- Use the Sour icon pack
+- Use Xeno Konsole theme
+- Use the Xeno-gtk GTK theme
+- Use the Xenofox Firefox theme
 
 ## Notes:
 
@@ -36,11 +36,11 @@ Xeno is a dark theme for Kvantum with colorful gradients, transparency, and a ra
     - Set Blur Strength to 6 (from Light/left)
     - Set Noise Strength to 9 (from Light/left)
 
-Customization:
+## Customization:
 
 - Always make a backup first
 
-- use Inkscape to modify Xeno.svg. Modification using a text editor is not particularly recommended for this bad boy, however, an exception can be made for using the 'Find & Replace' function to modify colors - for example, to modify the gradient from blue-purple to yellow-green, finding #8500ff (deep purple) and replacing with #36ff00 (lime green), and finding #00ddff (sky blue) and replacing with #e5f230 (yellow). The 'Find & Replace' function is powerful, and can have unintended consequences. Kvantum documentation on the .svg component of themes can be found here: https://github.com/tsujan/Kvantum/blob/master/Kvantum/doc/Theme-Making.pdf
+- Use Inkscape to modify Xeno.svg. Modification using a text editor is not particularly recommended for this bad boy, however, an exception can be made for using the 'Find & Replace' function to modify colors - for example, to modify the gradient from blue-purple to yellow-green, finding #8500ff (deep purple) and replacing with #36ff00 (lime green), and finding #00ddff (sky blue) and replacing with #e5f230 (yellow). The 'Find & Replace' function is powerful, and can have unintended consequences. Kvantum documentation on the .svg component of themes can be found here: https://github.com/tsujan/Kvantum/blob/master/Kvantum/doc/Theme-Making.pdf
 
 - Xeno.kvconfig contains values and colors that are used to scale the parameters or color the text of the corresponding elements in Xeno.svg. It also contains variables to enable inheritance. These can all be manipulated. Kvantum documentation on the .kvconfig component of themes can be found here: https://github.com/tsujan/Kvantum/blob/master/Kvantum/doc/Theme-Config.pdf
 
