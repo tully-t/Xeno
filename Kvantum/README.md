@@ -72,4 +72,4 @@ This project is licensed under the GPL v3.0 License.
 
 ## Acknowledgments
 
-The Xeno Kvantum theme is originally based on the [Sweet Theme](https://github.com/EliverLara/Sweet-kde) by Eliver Lara.
+The Xeno Kvantum theme is originally based on the [Sweet Theme](https://github.com/EliverLara/Sweet/tree/nova/kde) by Eliver Lara.
