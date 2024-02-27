@@ -1,6 +1,6 @@
 # Xeno Kvantum Theme
 
-Xeno is a dark theme for Kvantum with colorful gradients, transparency, and a radial window background.
+Xeno is a dark theme for Kvantum with colorful gradients and tempered transparency. Features a radial window background.
 
 ![screenshot of Xeno Kvantum theme](screenshots/screenshot_1.png)
 
