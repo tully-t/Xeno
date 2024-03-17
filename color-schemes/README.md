@@ -33,7 +33,7 @@ When using a Kvantum theme, colors in QT apps are provided by the Kvantum theme 
 
 - It is unfortunate that the 'separator' color for QtQuick/Kirigami apps is sourced from the text color Window ForegroundNormal. The consequence of this condition is that in QtQuick/Kirigami apps, separators and text have equal visibility and contrast - for example, System Settings cannot have both visible text and invisible separators
 
--  App colors are determined from several sources. You may be better served by making modifications to your Kvantum theme first, and then carrying your changes over to your KDE color scheme, since the KDE color scheme is essentially subordinate to the Kvantum theme. It is my recommendation to modify Kvantum theme colors first, and then carry your changes over to your KDE color scheme and then your Plasma theme, in order to match things up smoothly. If you use the Xeno-gtk GTK theme, carry your changes over to that theme component to stay consistent. If you use the Xenofox Firefox theme, carry your changes over to that theme component also
+-  App colors are determined from several sources. You may be better served by making modifications to your Kvantum theme first, and then carrying your changes over to your KDE color scheme, since the KDE color scheme is essentially subordinate to the Kvantum theme. To match things up across your entire system, you will then want to carry your changes over to your Plasma theme, and your GTK theme (if you don't use Breeze), and your [custom Firefox theme](https://github.com/tully-t/Xenofox), if you use one.
 
 ## Contributing
 
