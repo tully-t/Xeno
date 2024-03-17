@@ -27,7 +27,7 @@ When using a Kvantum theme, colors in QT apps are provided by the Kvantum theme 
 
 - Use a text editor rather than the System Settings dialog to edit Xeno.colors. The color picker dialog only allows for opaque colors, but editing Xeno.colors directly as a text file makes it possible to add a fourth number, the aplha value (RGB -> RGBA)
 
-    For example, [DecorationFocus=170,170,172] will give a solidly opaque #aaaaac white. [DecorationFocus=170,170,172,86] will give a transparent #aaaaac56 white, the same color but at 33.7% opacity.
+    For example, `DecorationFocus=170,170,172` will give a solidly opaque #aaaaac white, while `DecorationFocus=170,170,172,86` will give a transparent #aaaaac56 white, the same color but at 33.7% opacity.
 
 - The specific combination of an opaque Window BackgroundNormal and a transparent View BackgroundNormal allows for QtQuick/Kirigami apps to stay as consistent as possible to QtWidget/QtQML/Kvantum apps with a blurred window background without introducing transparency in unexpected places
 
