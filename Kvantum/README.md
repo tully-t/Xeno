@@ -18,7 +18,7 @@ Xeno is a dark theme for Kvantum with colorful gradients and tempered transparen
 
 - Use with the Xeno color scheme
 - Use with the Xeno Aurorae window decoration theme
-- Use with the Sour icon set
+- Use with the Sours icon set
 - Use with the Xeno Konsole theme
 - Use with the Xeno-gtk GTK theme
 - Use with the Xenofox Firefox theme
