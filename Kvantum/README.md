@@ -76,7 +76,7 @@ Please open an issue if you notice any bugs, errors, or unexpected behavior.
 
 ### License
 
-This project is licensed under the GPL v3.
+This project is licensed under the GNU GPL v3.
 
 ### Acknowledgments
 
