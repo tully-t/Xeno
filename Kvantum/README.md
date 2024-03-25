@@ -54,7 +54,7 @@ Xeno is a dark theme for Kvantum with colorful gradients and tempered transparen
 
 - The General Colors section of a .kvconfig file can be confusing, but I can offer some clarification for the more obscure features.
 
-    - The variables can be in #RRGGBB or #RRGGBBAA (with aplha) format, or given a valid color name like red.
+    - The variables can be in #RRGGBB or #RRGGBBAA (with alpha) format, or given a valid color name like red.
 
     - window.color: This is ironically not used as the window background when the option 'Translucent windows' is checked in Kvantum Manager -> Configure Active Theme -> Compositing & General Look. It is used seemingly at random elsewhere: sometimes as a widget background (as in OpenRGB) and, unfortunately, as the background for the tab overflow button.
 
