@@ -80,4 +80,4 @@ This project is licensed under the GNU GPL v3.
 
 ### Acknowledgments
 
-The Xeno Kvantum theme is originally based on [Sweet](https://github.com/EliverLara/Sweet/tree/nova/kde) by Eliver Lara, with tab and button shapes inspired by [Lavanda](https://github.com/vinceliuice/Lavanda-kde) by vinceliuice.
+The Xeno Kvantum theme is originally based on [Sweet](https://github.com/EliverLara/Sweet/tree/nova/kde), by Eliver Lara, with tab and button shapes inspired by [Lavanda](https://github.com/vinceliuice/Lavanda-kde), by vinceliuice.
