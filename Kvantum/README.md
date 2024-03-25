@@ -38,7 +38,7 @@ Xeno is a dark theme for Kvantum with colorful gradients and tempered transparen
 
 - If you prefer shadowless menus and tooltips, but the borders are too thick:
 
-    - Reduce the frame of menus and tooltips to 6 in Xeno.kvconfig
+    - Reduce the frame of menus and tooltips to 6 in ~/.config/Kvantum/Xeno/Xeno.kvconfig
 
 ## Customization:
 
