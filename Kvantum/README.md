@@ -64,7 +64,7 @@ Xeno is a dark theme for Kvantum with colorful gradients and tempered transparen
 
     - mid.color: The color of table grid lines and the solid center of 3-dimensional elements.
 
-- The sections below General Colors, beginning with PanelButtonCommand, provide the corresponding variables to their named component. Essentially all components inherit PanelButtonCommand or GenericFrame. In the case of Xeno, PanelButtonTool takes its frame and interior elements from combo, rather than button, in order to avoid an unnecessary border when toolbar buttons are hovered
+- The sections below General Colors, beginning with PanelButtonCommand, provide the corresponding variables to their named component. Essentially all components inherit PanelButtonCommand or GenericFrame. In the case of Xeno, PanelButtonTool inherits its frame and interior elements from combo, rather than button, in order to avoid an unnecessary border when toolbar buttons are hovered
 
 ## Known Bugs
 
