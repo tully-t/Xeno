@@ -36,7 +36,7 @@ Xeno is a dark theme for Kvantum with colorful gradients and tempered transparen
 
     Use middle-click or Ctrl+W to close tabs. Without a close button, it is much harder to accidentally close a tab when you meant to select or move it. I wish Dolphin had a GUI setting for this. To reveal the close button on tabs in Dolphin, change the indicator.size value in the [Tab] section of ~/.config/Kvantum/Xeno/Xeno.kvconfig to 8 or higher.
 
-- If you prefer shadowless menus and tooltips, but the borders are too thick:
+- For properly-sized borders if you prefer shadowless menus and tooltips:
 
     - Reduce the frame of menus and tooltips to 6 in ~/.config/Kvantum/Xeno/Xeno.kvconfig
 
