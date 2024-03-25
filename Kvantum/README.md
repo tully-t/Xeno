@@ -25,16 +25,20 @@ Xeno is a dark theme for Kvantum with colorful gradients and tempered transparen
 
 ## Notes:
 
-- Where did the close buttons on my tabs in Dolphin go?
-
-    Use middle-click or Ctrl+W to close tabs. Without a close button, it is much harder to accidentally close a tab when you meant to select or move it. I wish Dolphin had a GUI setting for this. To reveal the close button on tabs in Dolphin, change the indicator.size value in the [Tab] section of ~/.config/Kvantum/Xeno/Xeno.kvconfig to 8 or higher.
-
 - Blur:
 
     - In System Settings -> Workspace Behavior -> Desktop Effects, find the Blur row and ensure it is checked.
     - Press the customize button on the right to open the Blur Settings dialog window
     - Set Blur Strength to 6 (from Light/left)
     - Set Noise Strength to 9 (from Light/left)
+
+- Where did the close buttons on my tabs in Dolphin go?
+
+    Use middle-click or Ctrl+W to close tabs. Without a close button, it is much harder to accidentally close a tab when you meant to select or move it. I wish Dolphin had a GUI setting for this. To reveal the close button on tabs in Dolphin, change the indicator.size value in the [Tab] section of ~/.config/Kvantum/Xeno/Xeno.kvconfig to 8 or higher.
+
+- If you prefer shadowless menus and tooltips, but the borders are too thick:
+
+    - Reduce the frame of menus and tooltips to 6 in Xeno.kvconfig
 
 ## Customization:
 
@@ -62,14 +66,18 @@ Xeno is a dark theme for Kvantum with colorful gradients and tempered transparen
 
 - The sections below, beginning with PanelButtonCommand, provide the corresponding variables to their named component. Essentially all components inherit PanelButtonCommand or GenericFrame. In the case of Xeno, PanelButtonTool takes its frame and interior elements from combo, rather than button, in order to avoid an unnecessary border when toolbar buttons are hovered
 
-## Contributing
+### Known Bugs
+
+- Spinbuttons have a split gradient border
+
+### Contributing
 
 Please open an issue if you notice any bugs, errors, or unexpected behavior.
 
-## License
+### License
 
-This project is licensed under the GPL v3.0 License.
+This project is licensed under the GPL v3.
 
-## Acknowledgments
+### Acknowledgments
 
 The Xeno Kvantum theme is originally based on the [Sweet Theme](https://github.com/EliverLara/Sweet/tree/nova/kde) by Eliver Lara.
