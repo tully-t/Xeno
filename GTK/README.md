@@ -26,8 +26,8 @@ Xeno-gtk is a dark, colorful GTK3 theme designed to complement the Xeno KDE them
 
 - Install [gtk3-nocsd](https://github.com/fredldotme/gtk3-nocsd) (available in Debian and Fedora repositories, but unfortunately not the AUR anymore) to disable client-side decoration for GTK3 apps in KDE on X11. If you are on KDE Wayland, after installing [gtk3-nocsd](https://github.com/fredldotme/gtk3-nocsd), use the environment variable `WAYLAND_DISPLAY= ` or `GDK_BACKEND=x11` to launch GTK apps using XWayland, and they will have server-side Aurorae window decoration
     - Unnecessary for Firefox or Inkscape
-    - See [Xeno Aurorae](https://github.com/tully-t/Xeno/tree/main/Aurorae) documentation for complete instructions on the installation of window decorations
     - See [Xenofox](https://github.com/tully-t/Xenofox) documentation for complete instructions on the customization of Firefox
+    - See [Xeno Aurorae](https://github.com/tully-t/Xeno/tree/main/Aurorae) documentation for complete instructions on the installation of window decorations
 
 ## Customization:
 
