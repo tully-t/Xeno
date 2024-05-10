@@ -1,6 +1,6 @@
 # Xeno-gtk
 
-Xeno-gtk is a dark, colorful GTK3 theme designed to complement the Xeno KDE theme. Xeno-gtk does not officially support GTK4 or desktop environments other than KDE. This could change in the future.
+Xeno-gtk is a dark, colorful GTK3 theme designed to complement the Xeno KDE theme. Xeno-gtk does not currently support GTK4 or desktop environments other than KDE.
 
 ![screenshot of Xeno-gtk theme](screenshots/image-1.png)
 
@@ -52,7 +52,7 @@ Xeno-gtk is a dark, colorful GTK3 theme designed to complement the Xeno KDE them
 
 - Inkscape scales (like Blur (%) and Opacity (%) on the Fill tab) have incorrect vertical margin
 
-- Meld has sharp bottom window corners, and linked buttons in actionbars have jumpy horizontal margins
+- Meld has sharp bottom window corners
 
 ### Unresolvable issues:
 
