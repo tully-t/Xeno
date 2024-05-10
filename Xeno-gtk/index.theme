@@ -1,0 +1,12 @@
+[Desktop Entry]
+Type=X-GNOME-Metatheme
+Name=Xeno-gtk
+Comment=A dark GTK theme to match the Alien KDE theme
+Encoding=UTF-8
+
+[X-GNOME-Metatheme]
+GtkTheme=Xeno-gtk
+MetacityTheme=Xeno-gtk
+IconTheme=Sours
+CursorTheme=Sweet-cursors
+ButtonLayout=close,minimize,maximize:menu
