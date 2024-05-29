@@ -2,7 +2,7 @@
 
 Xeno-gtk is a dark, colorful GTK3 theme designed to complement the Xeno KDE theme. Xeno-gtk does not currently support GTK4 or desktop environments other than KDE.
 
-![screenshot of Xeno-gtk theme](screenshots/image-1.png)
+![screenshot of Xeno-gtk theme](screenshots/screenshot-1.png)
 
 ## Features:
 
@@ -12,7 +12,7 @@ Xeno-gtk is a dark, colorful GTK3 theme designed to complement the Xeno KDE them
 - Rounded corners
 - CSD similar to Xeno Aurorae window decoration (as a graceful fallback when SSD are unavailable)
     - Close/Min/Max buttons grow when hovered, and glow when pressed
-    - Active windows glow, inactive windows have inverted shadow (window edges are always apparent)
+    - Active windows glow, inactive windows have an inverted shadow (window edges are always apparent)
 
 ## Installation:
 
@@ -22,18 +22,11 @@ Xeno-gtk is a dark, colorful GTK3 theme designed to complement the Xeno KDE them
 - We now have a folder in ~/.themes/ named "Xeno-gtk" containing the theme content (gtk2.0, gtk3.0, index.theme)
 - In System Settings -> Appearance -> Application Style -> Configure GNOME/GTK application style, select "Xeno-gtk" as your GTK theme, and click Apply
 
-## Recommendations:
-
-- Install [gtk3-nocsd](https://github.com/fredldotme/gtk3-nocsd) (available in Debian and Fedora repositories, but unfortunately not the AUR anymore) to disable client-side decoration for GTK3 apps in KDE on X11. If you are on KDE Wayland, after installing [gtk3-nocsd](https://github.com/fredldotme/gtk3-nocsd), use the environment variable `WAYLAND_DISPLAY= ` or `GDK_BACKEND=x11` to launch GTK apps using XWayland, and they will have server-side Aurorae window decoration
-    - Unnecessary for Firefox or Inkscape
-    - See [Xenofox](https://github.com/tully-t/Xenofox) documentation for complete instructions on the customization of Firefox
-    - See [Xeno Aurorae](https://github.com/tully-t/Xeno/tree/main/Aurorae) documentation for complete instructions on the installation of window decorations
-
 ## Customization:
 
 - Always make a backup! Feel free to experiment
 
-- You are welcome to modify the theme files, including Xeno-gtk/gtk-3.0/gtk.css, as you wish. It may seem intimidating at first, but the bottom half (at least, anything after the stack-switcher section) of the file is app-specific code that generally should not require modification.
+- You are welcome to modify the theme files, including Xeno-gtk/gtk-3.0/gtk.css, as you wish. It may seem intimidating at first, but the bottom half (at least, anything after the stackswitcher section) of the file is app-specific code that generally should not require modification.
 
 - Use Ctrl+Shift+I to inspect elements of a GTK app. Install `gtk3-demos` to use the `gtk3-widget-factory` theme preview app
 
@@ -50,15 +43,11 @@ Xeno-gtk is a dark, colorful GTK3 theme designed to complement the Xeno KDE them
 
 - The window, tooltip, and menu shadows of Xeno-gtk, Xeno Aurorae, Xeno Kvantum, and Xeno Plasma are not exactly similar yet, but 1:1 similarity is a goal of the theme
 
-- Inkscape scales (like Blur (%) and Opacity (%) on the Fill tab) have incorrect vertical margin
-
-- Meld has sharp bottom window corners
+- Inkscape InkScales (Blur % and Opacity % on the Fill tab) have incorrect vertical margin
 
 ### Unresolvable issues:
 
 - Text entries and spinbuttons do not respond to mouse hover: [https://gitlab.gnome.org/GNOME/gtk/-/merge_requests/122]
-
-- [gtk3-nocsd](https://github.com/fredldotme/gtk3-nocsd) prevents compositing for context menus and tooltips
 
 ### Contributing
 
