@@ -30,7 +30,7 @@ Xeno-gtk is a dark, colorful GTK3 theme designed to complement the Xeno KDE them
 
 - Use Ctrl+Shift+I to inspect elements of a GTK app. Install `gtk3-demos` to use the `gtk3-widget-factory` theme preview app
 
-- Xeno-gtk/gtk-3.0/gtk.css is delineated into sections that are ordered by similarity (with some exceptions due to the cascading nature of CSS). The order of major sections: base states, entries and spinbuttons, buttons, comboboxes, toolbars/headerbars/pathbars, treeviews, menus/popovers, notebooks, scrollbars, check/radio buttons, scales, progress bars, frames, lists, dialogs, sidebars, infobars, tooltips, window decorations, stackswitcher
+- Xeno-gtk/gtk-3.0/gtk.css is delineated into sections that are ordered by similarity (with some exceptions due to the cascading nature of CSS). The order of major sections: base states, entries, buttons, spinbuttons, comboboxes, toolbars/headerbars/pathbars, treeviews, menus/popovers, notebooks, scrollbars, check/radio buttons, scales, progress bars, frames, lists, dialogs, sidebars, infobars, tooltips, window decorations, stackswitcher
 
 - Use Ctrl+F to find specific lines of code that you want to change. For example, "radial gradient circle at top (#00ddff 0%, #8500ff 90%)" is the code for the gradient around toggled/selected elements. You could replace the above quote with "radial gradient circle at top (#FF0000 0%, #FF00FF 90%)" for a red-pink gradient instead of a blue-purple gradient
     - The same purple in the gradient is used as an accent color when a gradient is not available
