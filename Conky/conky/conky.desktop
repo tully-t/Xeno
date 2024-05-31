@@ -1,0 +1,21 @@
+[Desktop Entry]
+Categories=System;Monitor;
+Comment[en_US]=
+Comment=
+Exec=/home/username/.conky/start_conky.sh
+GenericName[en_US]=
+GenericName=
+Icon=conky-logomark-violet
+MimeType=
+Name[en_US]=conky
+Name=conky
+Path=/home/username/.conky
+StartupNotify=false
+Terminal=false
+TerminalOptions=
+TryExec=conky
+Type=Application
+X-DBUS-ServiceName=
+X-DBUS-StartupType=
+X-KDE-SubstituteUID=false
+X-KDE-Username=
