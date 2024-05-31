@@ -24,6 +24,8 @@ System monitor gauge labels:
 - Rename ~/conky/ to ~/.conky/ (will make the folder hidden)
 - We now have a ~/.conky/ folder containing the Xeno Conky Theme content: ~/.conky/lua, conky-xeno.conf, conky.desktop, start_conky.sh, and xenobar.svg. ~/.conky is the location the theme expects
 
+- Ensure the [Neuropolitical font](https://www.dafont.com/neuropolitical.font) is intalled (or modify conky-xeno.config to use another)
+
 - Ensure `conky` is [installed](https://github.com/brndnmtthws/conky/wiki/Installation) with the correct build flags. If you use Arch, the standard Arch package [`conky`](https://archlinux.org/packages/extra/x86_64/conky/) unfortunately does not support the necessary Lua bindings. I use the [`conky-cairo`](https://aur.archlinux.org/packages/conky-cairo) package from the AUR because it suits my needs. You can also very easily compile `conky` from source yourself.
     - To install `conky-cairo` from the AUR: `yay -S conky-cairo`
 
