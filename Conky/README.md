@@ -76,7 +76,7 @@ Conky runs from the command line. `conky` will run Conky using the default confi
 - To run `conky` with the Xeno theme from the expected location, as a background process:
 
     `conky -c ~/.conky/conky-xeno.conf --daemonize '>>' /dev/null '2>&1'`
-    - Note: The Lua component of the config will not initially be functional and will produce an error. This is because it requires an absolute path that must be edited manually. In ~/.conky/conky-xeno.conf, in the lua_load line, replace "username" with your actual username to make it functional
+    - Note: The Lua component of the config will not initially be functional and will produce an error. This is because it requires an absolute path that must be edited manually. In ~/.conky/conky-xeno.conf, in the `lua_load` line, replace "username" with your actual username to make it functional
 
 - Conky sizing is determined by your screen resolution. The Xeno Conky theme is designed for a 2560x1440 screen. If you have a different resolution, you will need to adjust the horizontal spacing (goto and alignr parameters, minimum width config) as well as image size
 
