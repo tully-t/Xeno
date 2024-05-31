@@ -170,4 +170,4 @@ This project is licensed under the GNU GPL v3 - see the [LICENSE.md](LICENSE.md)
 
 ### Acknowledgments
 
-The Xeno Conky theme is made possible by [conky-draw](https://github.com/fisadev/conky-draw), a Lua library for Conky graphs by fisadev, as well as brndnmtthws and everyone who keeps Conky "one of the best maintained, and definitely one of the most useful, programs in the world of open source" ([Rahm 2](https://web.archive.org/web/20131212032148/http://www.linux-magazine.com/w3/issue/100/086-087_conky.pdf)).
+The Xeno Conky theme is made possible by [conky-draw](https://github.com/fisadev/conky-draw), a Lua library for Conky graphs by [fisadev](https://github.com/fisadev), as well as [brndnmtthws](https://github.com/brndnmtthws) and everyone who keeps Conky "one of the best maintained, and definitely one of the most useful, programs in the world of open source" ([Rahm 2](https://web.archive.org/web/20131212032148/http://www.linux-magazine.com/w3/issue/100/086-087_conky.pdf)).
