@@ -82,6 +82,15 @@ Conky runs from the command line. `conky` will run Conky using the default confi
 
 - Conky sizing is determined by your screen resolution. The Xeno Conky theme is designed for a 2560x1440 screen. If you have a different resolution, you will need to adjust the horizontal spacing (goto and alignr parameters, minimum width config) as well as image size
 
+### Start Conky on boot (KDE)
+First, modify the supplied `conky.desktop` file: open it with a text editor, and on the "Exec" and "Path" lines, replace "username" with your actual username. Autostart .desktop files also require absolute paths to function.
+
+Place the supplied `conky.desktop` file in ~/.config/autostart manually, or use the wizard in System Settings -> Autostart to add a start-up application and browse for `start_conky.sh`. Include the same options in the .desktop file that System Settings generates as are in the supplied `conky.desktop` file.
+
+The supplied `conky.desktop` file executes the supplied `start_conky.sh`, which uses the `sleep` command to wait 3 seconds before executing the `conky -c ~/.conky/conky-xeno.conf --daemonize '>>' /dev/null '2>&1'` command. This gives KDE more than enough time to boot properly before launching Conky.
+
+Note: Autostart .desktop files require absolute paths to function. Open `conky.desktop` with a text editor, and on the "Exec" and "Path" lines, replace "username" with your actual username.
+
 ### Plasma Panel Configuration
 - Dimensions:
     - Height: 40
@@ -100,15 +109,6 @@ Conky runs from the command line. `conky` will run Conky using the default confi
 ![screenshot of left Xeno Plasma Panel config](screenshots/screenshot-panel-left.png)
 
 ![screenshot of right Xeno Plasma Panel config](screenshots/screenshot-panel-right.png)
-
-### Start Conky on boot (KDE)
-First, modify the supplied `conky.desktop` file: open it with a text editor, and on the "Exec" and "Path" lines, replace "username" with your actual username. Autostart .desktop files also require absolute paths to function.
-
-Place the supplied `conky.desktop` file in ~/.config/autostart manually, or use the wizard in System Settings -> Autostart to add a start-up application and browse for `start_conky.sh`. Include the same options in the .desktop file that System Settings generates as are in the supplied `conky.desktop` file.
-
-The supplied `conky.desktop` file executes the supplied `start_conky.sh`, which uses the `sleep` command to wait 3 seconds before executing the `conky -c ~/.conky/conky-xeno.conf --daemonize '>>' /dev/null '2>&1'` command. This gives KDE more than enough time to boot properly before launching Conky.
-
-Note: Autostart .desktop files require absolute paths to function. Open `conky.desktop` with a text editor, and on the "Exec" and "Path" lines, replace "username" with your actual username.
 
 ### Keep Conky below other windows/panels (KDE)
 
