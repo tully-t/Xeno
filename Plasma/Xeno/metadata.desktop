@@ -1,0 +1,19 @@
+[Desktop Entry]
+Comment=A dark and colorful theme for Plasma 6
+Comment[es]=Un tema oscuro y colorido para Plasma 6
+Name=Xeno
+X-KDE-PluginInfo-Author=Tully Turk
+X-KDE-PluginInfo-Category=Plasma Theme
+X-KDE-PluginInfo-Email=
+X-KDE-PluginInfo-EnabledByDefault=true
+X-KDE-PluginInfo-License=GPLv3
+X-KDE-PluginInfo-Name=Xeno
+X-KDE-PluginInfo-Version=1.0.2
+X-KDE-PluginInfo-Website=https://github.com/tully-t/Xeno
+X-Plasma-API=6.0
+
+[ContrastEffect]
+enabled=false
+contrast=40
+intensity=1.4
+saturation=0.4
