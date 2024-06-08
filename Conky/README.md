@@ -18,15 +18,17 @@ System monitor gauge labels:
 
 ## Installation
 
-- Download and extract Xeno-main.zip
+- Download and extract [Xeno-main.zip](https://github.com/tully-t/Xeno)
 - Open the Conky folder
 - Copy the conky folder inside to your home holder
 - Rename ~/conky/ to ~/.conky/ (will make the folder hidden)
-- We now have a ~/.conky/ folder containing the Xeno Conky Theme content: ~/.conky/lua, conky-xeno.conf, conky.desktop, start_conky.sh, and xenobar.svg. ~/.conky is the location the theme expects
+- We now have a ~/.conky/ folder containing the Xeno Conky theme content: ~/.conky/lua, conky-xeno.conf, conky.desktop, start_conky.sh, and xenobar.svg. ~/.conky is the location the theme expects
 
 - Ensure the [Neuropolitical font](https://www.dafont.com/neuropolitical.font) is intalled (or modify conky-xeno.config to use another)
 
-- Ensure `conky` is [installed](https://github.com/brndnmtthws/conky/wiki/Installation) with the correct build flags. If you use Arch, the standard Arch package [`conky`](https://archlinux.org/packages/extra/x86_64/conky/) unfortunately does not support the necessary Lua bindings. I use the [`conky-cairo`](https://aur.archlinux.org/packages/conky-cairo) package from the AUR because it suits my needs. You can also very easily compile `conky` from source yourself.
+- Ensure `conky` is [installed](https://github.com/brndnmtthws/conky/wiki/Installation) with the correct build flags. If you only want the panel background without a gauge, Lua is not necessary and the standard package in any distribution is fine.
+
+If you want to use the gauge, and you use Arch, note that the standard Arch package [`conky`](https://archlinux.org/packages/extra/x86_64/conky/) unfortunately does not support the necessary Lua bindings. I use the [`conky-cairo`](https://aur.archlinux.org/packages/conky-cairo) package from the AUR because it suits my needs. You can also very easily compile `conky` from source yourself.
     - To install `conky-cairo` from the AUR: `yay -S conky-cairo`
 
 - If you have Conky installed, scroll past Compilation to Using Conky
@@ -68,9 +70,9 @@ System monitor gauge labels:
 
         6g. You have arrived back at the configuration page, but a new `[g] Generate` option has appeared in the Keys section at the bottom. Press `g` to generate the configuration and exit the cmake terminal interface
 
-    7. `cmake --build build` (compile - this step takes a few minutes)
+    7. `cmake --build build` (compiles Conky - this step takes a few minutes)
 
-    8. `cmake --install build` (place in /usr/bin)
+    8. `cmake --install build` (places the Conky executable in /usr/bin)
 
 ## Using Conky
 Conky runs from the command line. `conky` will run Conky using the default configuration, a solid black rectangle with sharp corners and lots of system information. The `-c` option tells Conky to use a config file different from the default. Next, supply the location of your config file. The Xeno theme expects to be installed in ~/.conky but any location in your home folder is valid. The `--daemonize` flag tells Conky to run in the background, and `'>>' /dev/null '2>&1'` pipes any output from Conky to the void (both are part of the command so you can close the terminal window and Conky will stay running).
@@ -81,6 +83,13 @@ Conky runs from the command line. `conky` will run Conky using the default confi
     - Note: The Lua component of the config will not initially be functional and will produce an error. This is because it requires an absolute path that must be edited manually. In ~/.conky/conky-xeno.conf, in the `lua_load` line, replace "username" with your actual username to make it functional
 
 - Conky sizing is determined by your screen resolution. The Xeno Conky theme is designed for a 2560x1440 screen. If you have a different resolution, you will need to adjust the horizontal spacing (goto and alignr parameters, minimum width config) as well as image size
+
+### Panel background only - no gauge
+To use the Xeno Conky theme as a panel background only, without a gauge:
+- Open conky-xeno.conf with your text editor of choice
+- Delete the two lines that begin with 'lua,' line 37 & 38
+    - Line 37: `lua_load = '/home/tully-t/.conky/lua/conky_draw.lua',`
+    - Line 38: `lua_draw_hook_pre = 'main',`
 
 ### Start Conky on boot (KDE)
 First, modify the supplied `conky.desktop` file: open it with a text editor, and on the "Exec" and "Path" lines, replace "username" with your actual username. Autostart .desktop files also require absolute paths to function.
@@ -101,10 +110,9 @@ Note: Autostart .desktop files require absolute paths to function. Open `conky.d
 - On Wayland, two side-by-side panels can be achieved by avoiding the 'Always Visible' Visibility option (I use Dodge Windows) (bug: https://bugs.kde.org/show_bug.cgi?id=477939)
 - In edit mode, use the 'Drag to change maximum/minimum width' sliders to align the panels on either side of the middle slant
 - Use [Panel Spacer Extended](https://www.pling.com/p/2128047) for explicit control over spacer length and additional panel actions (e.g. scroll to change volume (kmix), double-click to maximize/restore windows)
-- Left Panel (from left): Panel Spacer Extended (fixed size, 30px), Window Buttons (use metrics from decoration, slide out, show when active window maximized, left margin: 0, right margin: 4px), Digital Clock, Panel Spacer Extended (fixed size, 4px), [Weather Widget 2](https://github.com/blackadderkate/weather-widget-2) (modified) (font style: Neuropolitical, font size: 26px), System Tray, Global Menu, Panel Spacer Extended (flexible size), Panel Transparency Button, Application Launcher
-- Right Panel (from right): Panel Spacer Extended (fixed size, 19px), [Netspeed Widget](https://store.kde.org/p/2136505) (modified) (upload first, font size: 90%), Panel Spacer Extended (flexible size), Panel Transparency Button, Icons-only Task Manager (_not_ filling free space on panel, for compatibility with Panel Spacer Extended flexible size, and set icons to appear to the right)
-
-- Screenshots of my Plasma Panel configuration:
+- Left Panel (from left): Panel Spacer Extended (fixed size, 30px), Window Buttons (use metrics from decoration, slide out, show when active window maximized, left margin: 0, right margin: 4px), Digital Clock, Panel Spacer Extended (fixed size, 5px), [Weather Widget 2](https://github.com/blackadderkate/weather-widget-2) (modified) (font style: Neuropolitical, font size: 26px), System Tray, Global Menu, Panel Spacer Extended (flexible size), Panel Transparency Button, Application Launcher
+- Right Panel (from right): Panel Spacer Extended (fixed size, 32px), [Netspeed Widget](https://store.kde.org/p/2136505) (modified) (upload first, font size: 90%), Panel Spacer Extended (flexible size), Panel Transparency Button, Icons-only Task Manager (_not_ filling free space on panel, for compatibility with Panel Spacer Extended flexible size, and set icons to appear to the right)
+- Screenshots of Plasma Panel configuration:
 
 ![screenshot of left Xeno Plasma Panel config](screenshots/screenshot-panel-left.png)
 
@@ -117,6 +125,7 @@ Note: Autostart .desktop files require absolute paths to function. Open `conky.d
     - For "Window class (application)", select "Exact Match" and type conky
     - Click "Add Property..." and select "Layer" at the very bottom
     - Use the dropdown menu to change "Normal" to "Below", and click "Apply"
+    Note: Unfortunately Conky will still prevent any clicks from reaching the toolbar that pops up along the panel in Edit mode. You can use `killall conky` to quit Conky before opening Edit mode.
 
 ## Customization
 
