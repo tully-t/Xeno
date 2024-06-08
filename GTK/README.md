@@ -2,7 +2,7 @@
 
 Xeno-gtk is a dark, colorful GTK3 theme designed to complement the Xeno KDE theme. Xeno-gtk does not currently support GTK4 or desktop environments other than KDE.
 
-![screenshot of Xeno-gtk theme](screenshots/screenshot-1.png)
+![screenshot of Xeno-gtk theme](screenshots/output1.gif)
 
 ## Features:
 
