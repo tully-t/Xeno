@@ -1,8 +1,8 @@
 # Xeno Color Scheme
 
-A color scheme for KDE to compliment the Xeno Kvantum theme
+A color scheme for KDE to compliment the Xeno Kvantum theme.
 
-![screenshot of Xeno color scheme](screenshots/screenshot_1.png)
+![screenshot of Xeno color scheme](preview/screenshot_1.png)
 
 ## Installation
 
@@ -35,10 +35,10 @@ When using a Kvantum theme, colors in QT apps are provided by the Kvantum theme 
 
 -  App colors are determined from several sources. You may be better served by making modifications to your Kvantum theme first, and then carrying your changes over to your KDE color scheme, since the KDE color scheme is essentially subordinate to the Kvantum theme. To match things up across your entire system, you will then want to carry your changes over to your Plasma theme, and your GTK theme (if you don't use Breeze), and your [custom Firefox theme](https://github.com/tully-t/Xenofox), if you use one.
 
-## Contributing
+### Contributing
 
 Please open an issue if you notice any bugs, errors, or unexpected behavior.
 
-## License
+### License
 
-This project is licensed under the GPLv3
+This project is licensed under the GNU GPL v3.

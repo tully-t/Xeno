@@ -8,45 +8,45 @@ IntensityAmount=0.1
 IntensityEffect=2
 
 [ColorEffects:Inactive]
-ChangeSelectionColor=false
+ChangeSelectionColor=true
 Color=112,111,110
 ColorAmount=0.05
 ColorEffect=2
 ContrastAmount=0.1
-ContrastEffect=0
+ContrastEffect=2
 Enable=false
 IntensityAmount=0
 IntensityEffect=0
 
 [Colors:Button]
-BackgroundAlternate=64,69,82,99
-BackgroundNormal=26,26,26
+BackgroundAlternate=170,170,172,72
+BackgroundNormal=170,170,172,72
 DecorationFocus=170,170,172,86
 DecorationHover=170,170,172,86
 ForegroundActive=0,241,250
 ForegroundInactive=102,106,115
-ForegroundLink=0,200,255
-ForegroundNegative=255,0,255
+ForegroundLink=0,170,255
+ForegroundNegative=221,85,255
 ForegroundNeutral=221,85,255
 ForegroundNormal=187,187,187
 ForegroundPositive=54,255,0
 ForegroundVisited=133,0,255
 
 [Colors:Complementary]
-BackgroundAlternate=20,26,33,99
+BackgroundAlternate=20,26,33
 BackgroundNormal=26,26,26,99
 DecorationFocus=170,170,172,86
 DecorationHover=170,170,172,86
 
 [Colors:Selection]
-BackgroundAlternate=29,153,243,86
+BackgroundAlternate=29,153,243
 BackgroundNormal=170,170,172,86
 DecorationFocus=170,170,172,86
 DecorationHover=170,170,172,86
 ForegroundActive=0,241,250
 ForegroundInactive=187,187,187
-ForegroundLink=0,200,255
-ForegroundNegative=255,0,255
+ForegroundLink=0,170,255
+ForegroundNegative=221,85,255
 ForegroundNeutral=221,85,255
 ForegroundNormal=221,221,221
 ForegroundPositive=54,255,0
@@ -59,8 +59,8 @@ DecorationFocus=170,170,172,86
 DecorationHover=170,170,172,86
 ForegroundActive=0,241,250
 ForegroundInactive=102,106,115
-ForegroundLink=0,200,255
-ForegroundNegative=255,0,255
+ForegroundLink=0,170,255
+ForegroundNegative=221,85,255
 ForegroundNeutral=221,85,255
 ForegroundNormal=221,221,221
 ForegroundPositive=54,255,0
@@ -73,8 +73,8 @@ DecorationFocus=170,170,172,86
 DecorationHover=170,170,172,86
 ForegroundActive=0,241,250
 ForegroundInactive=102,106,115
-ForegroundLink=0,200,255
-ForegroundNegative=255,0,255
+ForegroundLink=0,170,255
+ForegroundNegative=221,85,255
 ForegroundNeutral=221,85,255
 ForegroundNormal=170,170,172
 ForegroundPositive=54,255,0
@@ -87,15 +87,15 @@ DecorationFocus=170,170,172,86
 DecorationHover=170,170,172,86
 ForegroundActive=0,241,250
 ForegroundInactive=102,106,115
-ForegroundLink=0,200,255
-ForegroundNegative=255,0,255
+ForegroundLink=0,170,255
+ForegroundNegative=221,85,255
 ForegroundNeutral=221,85,255
 ForegroundNormal=170,170,172
 ForegroundPositive=54,255,0
 ForegroundVisited=133,0,255
 
 [General]
-ColorScheme=Alien
+ColorScheme=Xeno
 Name=Xeno
 shadeSortColumn=false
 
