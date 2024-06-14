@@ -1,6 +1,6 @@
 # Xeno Kvantum Theme
 
-Xeno is a dark theme for Kvantum with colorful gradients and tempered transparency. Features a radial window background.
+Xeno is a dark theme for Kvantum with colorful gradients and tempered transparency. Features a radial background gradient.
 
 ![screenshot of Xeno Kvantum theme](screenshots/screenshot_1.png)
 
@@ -8,7 +8,7 @@ Xeno is a dark theme for Kvantum with colorful gradients and tempered transparen
 
 - First, ensure `kvantummanager` is installed. The package name could also be `kvantum`, `kvantum-qt5`, or `qt5-style-kvantum` depending on your distribution
 
-- Download and extract Xeno-main.zip
+- Download and extract [Xeno-main.zip](https://github.com/tully-t/Xeno)
 - Open the Kvantum folder
 - Copy the Xeno folder to ~/.config/Kvantum/ (create if necessary)
 - We now have a ~/.config/Kvantum/Xeno
@@ -19,6 +19,7 @@ Xeno is a dark theme for Kvantum with colorful gradients and tempered transparen
 - Use with the Xeno color scheme
 - Use with the Xeno Aurorae window decoration theme
 - Use with the Sours icon set
+- Use with the Xeno Plasma theme
 - Use with the Xeno Konsole theme
 - Use with the Xeno-gtk GTK theme
 - Use with the Xenofox Firefox theme
@@ -29,8 +30,8 @@ Xeno is a dark theme for Kvantum with colorful gradients and tempered transparen
 
     - In System Settings -> Workspace Behavior -> Desktop Effects, find the Blur row and ensure it is checked.
     - Press the customize button on the right to open the Blur Settings dialog window
-    - Set Blur Strength to 6 (from Light/left)
-    - Set Noise Strength to 9 (from Light/left)
+    - Set Blur Strength to 5 (from Light/left)
+    - Set Noise Strength to 3 (from Light/left)
 
 - Where did the close buttons on my tabs in Dolphin go?
 
@@ -66,7 +67,7 @@ Xeno is a dark theme for Kvantum with colorful gradients and tempered transparen
 
 - The sections below General Colors, beginning with PanelButtonCommand, provide the corresponding variables to their named component. Essentially all components inherit PanelButtonCommand or GenericFrame. In the case of Xeno, PanelButtonTool inherits its frame and interior elements from combo, rather than button, in order to avoid an unnecessary border when toolbar buttons are hovered
 
-## Known Bugs
+## Known Issues
 
 - Spinbuttons have a split gradient border
 
@@ -76,7 +77,7 @@ Please open an issue if you notice any bugs, errors, or unexpected behavior.
 
 ### License
 
-This project is licensed under the GNU GPL v3.
+This project is licensed under the GNU GPL v3 - see the [LICENSE.md](LICENSE.md) file for details.
 
 ### Acknowledgments
 
