@@ -1,16 +1,16 @@
 # Xeno Plasma Theme
 
-Xeno is a dark theme for Plasma with colorful gradients and a cyberpunk glow. Features a radial gradient background for dialogs.
+Xeno is a dark theme for Plasma with colorful gradients and a cyberpunk glow. Features a radial background gradient.
 
-![screenshot of Xeno Plasma theme](screenshots/screenshot-0.png)
+![screenshot of Xeno Plasma theme](preview/screenshot-0.png)
 
-![screenshot of Xeno Plasma theme Plasma Panel](screenshots/screenshot-1.png)
+![screenshot of Xeno Plasma theme Plasma Panel](preview/screenshot-1.png)
 
 Screenshots above depict a Plasma Panel using the [Xeno Conky theme](https://github.com/tully-t/Xeno/tree/main/Conky) and the [Plasma Transparency Button](https://store.kde.org/p/2150916)
 
 Screenshot below depicts a Plasma Panel without using the [Xeno Conky theme](https://github.com/tully-t/Xeno/tree/main/Conky) and the [Plasma Transparency Button](https://store.kde.org/p/2150916)
 
-![screenshot of Xeno Plasma theme Plasma Panel with no Conky or Plasma Transparency Button](screenshots/screenshot-2.png)
+![screenshot of Xeno Plasma theme Plasma Panel with no Conky or Plasma Transparency Button](preview/screenshot-2.png)
 
 ## Installation
 
@@ -31,7 +31,12 @@ Screenshot below depicts a Plasma Panel without using the [Xeno Conky theme](htt
 - Use with the Xeno color scheme
 - Use with the [Sours icon set](https://github.com/tully-t/Sours)
 - Use with the Xeno Kvantum theme
+- Blur:
 
+    - In System Settings -> Workspace Behavior -> Desktop Effects, find the Blur row and ensure it is checked.
+    - Press the customize button on the right to open the Blur Settings dialog window
+    - Set Blur Strength to 5 (from Light/left)
+    - Set Noise Strength to 3 (from Light/left)
 
 ### Plasma Panel configuration
 - Dimensions:
@@ -47,9 +52,9 @@ Screenshot below depicts a Plasma Panel without using the [Xeno Conky theme](htt
 - Right Panel (from right): Panel Spacer Extended (fixed size, 32px), [Netspeed Widget](https://store.kde.org/p/2136505) (modified) (upload first, use shortened speed units), Panel Spacer Extended (flexible size), Panel Transparency Button, Icons-only Task Manager (_not_ filling free space on panel, for compatibility with Panel Spacer Extended flexible size, and set icons to appear to the right)
 - Screenshots of Plasma Panel configuration:
 
-![screenshot of left Xeno Plasma Panel config](screenshots/screenshot-panel-left.png)
+![screenshot of left Xeno Plasma Panel config](preview/screenshot-panel-left.png)
 
-![screenshot of right Xeno Plasma Panel config](screenshots/screenshot-panel-right.png)
+![screenshot of right Xeno Plasma Panel config](preview/screenshot-panel-right.png)
 
 ### Keep Conky below other windows/panels
 
