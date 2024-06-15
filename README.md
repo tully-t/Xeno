@@ -19,6 +19,8 @@ Font: [Neuropolitical](https://www.dafont.com/neuropolitical.font)
 
 Each component folder contains a README with installation instructions, recommendations, and customization notes specific to that component.
 
+## Preview
+
 ![screenshot of Xeno Aurorae window decoration](preview/screenshot-aurorae.png)
 
 ![screenshot of Xeno Kvantum theme](preview/screenshot-kvantum.png)
