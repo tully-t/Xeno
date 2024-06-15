@@ -2,19 +2,19 @@
 
 Provides an angled panel background and a system monitor gauge. Intended to be used in combination with a transparent panel. Matches the Xeno Aurorae window decoration.
 
-![screenshot of Xeno Conky config](screenshots/screenshot-0.png)
+![screenshot of Xeno Conky config](preview/screenshot-0.png)
 
 With panel and global menu:
 
-![screenshot of Xeno Conky with Plasma Panel](screenshots/screenshot-1.png)
+![screenshot of Xeno Conky with Plasma Panel](preview/screenshot-1.png)
 
 Just the conky, no panel:
 
-![screenshot of Xeno Conky without Plasma Panel](screenshots/screenshot-2.png)
+![screenshot of Xeno Conky without Plasma Panel](preview/screenshot-2.png)
 
 System monitor gauge labels:
 
-![screenshot of Xeno Conky gauge with labels](screenshots/screenshot-gauge.png)
+![screenshot of Xeno Conky gauge with labels](preview/screenshot-gauge.png)
 
 ## Installation
 
@@ -114,9 +114,9 @@ Note: Autostart .desktop files require absolute paths to function. Open `conky.d
 - Right Panel (from right): Panel Spacer Extended (fixed size, 32px), [Netspeed Widget](https://store.kde.org/p/2136505) (modified) (upload first, font size: 90%), Panel Spacer Extended (flexible size), Panel Transparency Button, Icons-only Task Manager (_not_ filling free space on panel, for compatibility with Panel Spacer Extended flexible size, and set icons to appear to the right)
 - Screenshots of Plasma Panel configuration:
 
-![screenshot of left Xeno Plasma Panel config](screenshots/screenshot-panel-left.png)
+![screenshot of left Xeno Plasma Panel config](preview/screenshot-panel-left.png)
 
-![screenshot of right Xeno Plasma Panel config](screenshots/screenshot-panel-right.png)
+![screenshot of right Xeno Plasma Panel config](preview/screenshot-panel-right.png)
 
 ### Keep Conky below other windows/panels (KDE)
 
@@ -154,7 +154,7 @@ The Xeno Conky theme uses the conky-draw Lua library to draw the system monitor 
 - conky_draw.lua is the library itself - don't edit this file
 - conky_draw_config.lua is the config file where graphs are defined - edit this file
     - Templates can be found [here](https://github.com/fisadev/conky-draw)
-    - freq_g (CPU frequency): the min and max values will need to be adjusted to your system. On a desktop, reported CPU frequency rarely drops to the minimum. I set a min value off 4.2 and a max value of 4.8 to restrict the graph to the top of my frequency range - this way, the graph movement is more significant and the graph gives more useful information.
+    - freq_g (CPU frequency): the min and max values will need to be adjusted to your system. On a desktop, reported CPU frequency rarely drops to the minimum. I set a min value of 4.2 and a max value of 4.8 to restrict the graph to the top of my frequency range - this way, the graph movement is more significant and the graph gives more useful information.
 
 ### Text Customization
 The text section follows the config section. Lines in this section display meters (text, images, or graphs) in the conky window. Specify position, font, size, color for each line.
