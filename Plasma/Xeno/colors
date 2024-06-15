@@ -1,6 +1,9 @@
 [Colors:Button]
+# switch knob bg
 BackgroundNormal=170,170,172,78
-DecorationFocus=170,170,172,117
+# switch knob hover ring
+DecorationFocus=26,26,26,26
+# user switcher hovered item bg
 DecorationHover=170,170,172,117
 ForegroundNormal=221,221,221
 ForegroundInactive=187,187,187
@@ -11,14 +14,20 @@ DecorationHover=170,170,172,86
 ForegroundNormal=221,221,221
 ForegroundInactive=187,187,187
 
+[Colors:Selection]
+# switch groove bg, user switcher non-hovered item bg
+BackgroundNormal=26,26,26,26
+
 [Colors:View]
+BackgroundNormal=26,26,26
 DecorationFocus=170,170,172,117
 DecorationHover=170,170,172,86
 ForegroundNormal=221,221,221
 ForegroundInactive=187,187,187
 
 [Colors:Window]
-BackgroundNormal=26,26,26,86
+BackgroundNormal=26,26,26
+DecorationFocus=133,0,255
 DecorationHover=170,170,172,86
 ForegroundNormal=221,221,221
 ForegroundInactive=187,187,187
