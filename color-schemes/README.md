@@ -68,7 +68,7 @@ TL;DR: Xeno-opaque introduces unexpected opacity, solving one problem but creati
 
 ## Known Issues
 
-- Modal dialogs, like the Edit Pages dialog in System Monitor, are both unblurred and fully transparent without intervention
+- Modal dialogs, like the autocomplete popup in Kate, are both unblurred and fully transparent without intervention
 
 ### Contributing
 
