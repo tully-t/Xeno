@@ -30,11 +30,14 @@ In the Xeno color scheme, the particular combination of an opaque `BackgroundNor
     - Where you encounter problematic transparency with Xeno, modify the configuration of that app
     - Some Qt apps, like Kate, allow the user to set the color scheme of the app, which you can set to Xeno-opaque
     - Other Qt apps, like System Settings or Audacious, will read colors from their rc file, located in ~/.config (e.g. for System Settings, this file is named systemsettingsrc)
-        - To add a color to an app's rc file, copy it from the color scheme. Include both the section and the color in the section that you want to change. To fix modal dialogs in System Settings, open ~/.config/systemsettingsrc, add a line, and below it paste `[Colors:View]`. Below [Colors:View] paste `BackgroundNormal=26,26,26` and ensure the file ends with an empty line: ![Modified systemsettingsrc file](preview/systemsettingsrc-example.png)
+        - To add a color to an app's rc file, copy it from the color scheme. Include both the section and the color in the section that you want to change. To fix modal dialogs in System Settings, open ~/.config/systemsettingsrc, add a line, and below it paste `[Colors:View]`. Below [Colors:View] paste `BackgroundNormal=26,26,26` and ensure the file ends with an empty line:
+        ![Modified systemsettingsrc file](preview/systemsettingsrc-example.png)
 
-        You can make a similar change to get the alternate rows in Audacious just right: ![Modified audaciousrc file](preview/audaciousrc-example.png)
+        You can make a similar change to get the alternate rows in Audacious just right:
+        ![Modified audaciousrc file](preview/audaciousrc-example.png)
 
-    - System Monitor widgets (like the Application list) are a special case. They will not be affected by a color in the ~/.config/systemmonitorrc file, but they do provide a way to overcome unexpected transparency with a "Show Background" option in Edit mode: ![System Monitor screenshot](preview/sysmon-example.png)
+    - System Monitor widgets (like the Application list) are a special case. They will not be affected by a color in the ~/.config/systemmonitorrc file, but they do provide a way to overcome unexpected transparency with a "Show Background" option in Edit mode:
+    ![System Monitor screenshot](preview/sysmon-example.png)
 
     - For apps where full window opacity is unavoidable, like System Monitor or Audacious, consider setting their per-app Kvantum theme to Xeno-Opaque under Application Themes in Kvantum Manager
 
