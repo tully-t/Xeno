@@ -8,7 +8,7 @@
    width="100"
    height="142.00034"
    version="1.0"
-   sodipodi:docname="tasks.svg"
+   sodipodi:docname="tasks-top.svg"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -1793,11 +1793,11 @@
        gradientUnits="userSpaceOnUse" />
     <linearGradient
        inkscape:collect="always"
-       xlink:href="#linearGradient5926"
+       xlink:href="#linearGradient5"
        id="linearGradient4"
        x1="1.3229164"
        y1="291.04688"
-       x2="20.637499"
+       x2="25.135418"
        y2="291.04721"
        gradientUnits="userSpaceOnUse" />
     <linearGradient
@@ -2044,7 +2044,7 @@
      showgrid="true"
      inkscape:zoom="13.28205"
      inkscape:cx="42.049232"
-     inkscape:cy="-23.452705"
+     inkscape:cy="48.825294"
      inkscape:window-x="0"
      inkscape:window-y="40"
      inkscape:current-layer="svg11324"

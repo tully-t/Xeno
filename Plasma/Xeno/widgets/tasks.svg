@@ -1793,11 +1793,11 @@
        gradientUnits="userSpaceOnUse" />
     <linearGradient
        inkscape:collect="always"
-       xlink:href="#linearGradient5926"
+       xlink:href="#linearGradient5"
        id="linearGradient4"
        x1="1.3229164"
        y1="291.04688"
-       x2="20.637499"
+       x2="25.135418"
        y2="291.04721"
        gradientUnits="userSpaceOnUse" />
     <linearGradient
@@ -2043,8 +2043,8 @@
      id="base"
      showgrid="true"
      inkscape:zoom="13.28205"
-     inkscape:cx="42.049232"
-     inkscape:cy="-23.452705"
+     inkscape:cx="42.011587"
+     inkscape:cy="57.860044"
      inkscape:window-x="0"
      inkscape:window-y="40"
      inkscape:current-layer="svg11324"
