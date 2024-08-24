@@ -6,7 +6,7 @@ Xeno is a dark theme for Plasma with colorful gradients and a cyberpunk glow. Fe
 
 ![screenshot of Xeno Plasma theme Plasma Panel](preview/screenshot-11.png)
 
-Screenshots above depict a Plasma Panel using the [Xeno Conky theme](https://github.com/tully-t/Xeno/tree/main/Conky) and the [Plasma Transparency Button](https://store.kde.org/p/2150916)
+Screenshot above depicts a Plasma Panel using the [Xeno Conky theme](https://github.com/tully-t/Xeno/tree/main/Conky) and the [Plasma Transparency Button](https://store.kde.org/p/2150916)
 
 Screenshot below depicts a Plasma Panel without using the [Xeno Conky theme](https://github.com/tully-t/Xeno/tree/main/Conky) and the [Plasma Transparency Button](https://store.kde.org/p/2150916)
 
@@ -51,7 +51,7 @@ Screenshot below depicts a Plasma Panel without using the [Xeno Conky theme](htt
 - Use [Panel Spacer Extended](https://www.pling.com/p/2128047) for explicit control over spacer length and additional panel actions (e.g. scroll to change volume (kmix), double-click to maximize/restore windows)
 - Left Panel (from left):
     - Panel Spacer Extended (fixed size: 31px, tooltip disabled, hover effect disabled)
-    - Window Buttons (use metrics from decoration, slide out, show when active window maximized, left - margin: 0, right margin: 4px)
+    - Window Buttons (use metrics from decoration, slide out, show when active window maximized, left margin: 0, right margin: 4px)
     - Digital Clock (font: 18pt Neuropolitical)
     - Panel Spacer Extended (fixed size, 6px, tooltip disabled, hover effect disabled)
     - [Weather Widget 2](https://github.com/blackadderkate/weather-widget-2) (modified) (font style: - Neuropolitical, font size: 26px)
