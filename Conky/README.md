@@ -2,11 +2,11 @@
 
 Provides an angled panel background and a system monitor gauge. Intended to be used in combination with a transparent panel. Matches the Xeno Aurorae window decoration.
 
-![screenshot of Xeno Conky config](preview/screenshot-0.png)
+![screenshot of Xeno Conky config](preview/screenshot-00.png)
 
-With panel and global menu:
+With panel, including global menu and media player:
 
-![screenshot of Xeno Conky with Plasma Panel](preview/screenshot-1.png)
+![screenshot of Xeno Conky with Plasma Panel](preview/screenshot-11.png)
 
 Just the conky, no panel:
 
@@ -84,39 +84,71 @@ Conky runs from the command line. `conky` will run Conky using the default confi
 
 - Conky sizing is determined by your screen resolution. The Xeno Conky theme is designed for a 2560x1440 screen. If you have a different resolution, you will need to adjust the horizontal spacing (goto and alignr parameters, minimum width config) as well as image size
 
+## CPU temperature command
+Conky uses hwmon to gather information from the motherboard. Hwmon is notorious for loading devices in a different order every boot, yet most hwmon documentation uses hwmon device numbers in their commands, which leads to the command breaking every reboot - it's asinine.
+
+To avoid that, the hwmon command in this Conky theme _names_ the device to specify it, rather than using its device number: `${hwmon asusec temp 2}`
+
+In this command, `asusec` is the name of my motherboard, and `temp 2` is the sensor that I want to read. This may not be the same for you - your motherboard may have a different name, and `temp 2` may not be the sensor you want to read. To determine which hwmon device and sensor to display in your Conky gauge, navigate to `/sys/class/hwmon/` and check the "name" file in each numbered folder to discover devices, and then check the sensor label files (e.g. temp1_label) to discover particular sensors. This is the proper format for hwmon commands:
+
+`${hwmon [device name] [sensor] [sensor number]}`
+
 ### Panel background only - no gauge
 To use the Xeno Conky theme as a panel background only, without a gauge:
 - Open conky-xeno.conf with your text editor of choice
 - Delete the two lines that begin with 'lua,' line 37 & 38
-    - Line 37: `lua_load = '/home/tully-t/.conky/lua/conky_draw.lua',`
+    - Line 37: `lua_load = '/home/username/.conky/lua/conky_draw.lua',`
     - Line 38: `lua_draw_hook_pre = 'main',`
 
 ### Start Conky on boot (KDE)
-First, modify the supplied `conky.desktop` file: open it with a text editor, and on the "Exec" and "Path" lines, replace "username" with your actual username. Autostart .desktop files also require absolute paths to function.
+First, modify the supplied `conky.desktop` file: open it with a text editor, and on the "Exec" and "Path" lines, replace "username" with your actual username.
 
-Place the supplied `conky.desktop` file in ~/.config/autostart manually, or use the wizard in System Settings -> Autostart to add a start-up application and browse for `start_conky.sh`. Include the same options in the .desktop file that System Settings generates as are in the supplied `conky.desktop` file.
+Place the supplied `conky.desktop` file in ~/.config/autostart manually, or use the wizard in System Settings -> Autostart to add a start-up application and browse for `start_conky.sh` (ensure that the .desktop file that System Settings generates includes the same options that are in the supplied `conky.desktop` file).
 
 The supplied `conky.desktop` file executes the supplied `start_conky.sh`, which uses the `sleep` command to wait 3 seconds before executing the `conky -c ~/.conky/conky-xeno.conf --daemonize '>>' /dev/null '2>&1'` command. This gives KDE more than enough time to boot properly before launching Conky.
 
 Note: Autostart .desktop files require absolute paths to function. Open `conky.desktop` with a text editor, and on the "Exec" and "Path" lines, replace "username" with your actual username.
 
-### Plasma Panel Configuration
+### Plasma Panel configuration
 - Dimensions:
     - Height: 40
     - Width: Custom
     - Style: Floating
-- Transparency: use [Panel Transparency Button](https://store.kde.org/p/2150916) for a no-frills way to make the panel transparent
+- Transparency: use [Panel Colorizer](https://store.kde.org/p/2130967) to make the panel background transparent, it also allows for margin correction and provides a drop shadow for the dock icons and media player
 - The top panel with center dock in the screenshots actually consists of two side-by-side panels with a custom width, one left-aligned and one right-aligned
 - On Wayland, two side-by-side panels can be achieved by avoiding the 'Always Visible' Visibility option (I use Dodge Windows) (bug: https://bugs.kde.org/show_bug.cgi?id=477939)
 - In edit mode, use the 'Drag to change maximum/minimum width' sliders to align the panels on either side of the middle slant
 - Use [Panel Spacer Extended](https://www.pling.com/p/2128047) for explicit control over spacer length and additional panel actions (e.g. scroll to change volume (kmix), double-click to maximize/restore windows)
-- Left Panel (from left): Panel Spacer Extended (fixed size, 30px), Window Buttons (use metrics from decoration, slide out, show when active window maximized, left margin: 0, right margin: 4px), Digital Clock, Panel Spacer Extended (fixed size, 5px), [Weather Widget 2](https://github.com/blackadderkate/weather-widget-2) (modified) (font style: Neuropolitical, font size: 26px), System Tray, Global Menu, Panel Spacer Extended (flexible size), Panel Transparency Button, Application Launcher
-- Right Panel (from right): Panel Spacer Extended (fixed size, 32px), [Netspeed Widget](https://store.kde.org/p/2136505) (modified) (upload first, font size: 90%), Panel Spacer Extended (flexible size), Panel Transparency Button, Icons-only Task Manager (_not_ filling free space on panel, for compatibility with Panel Spacer Extended flexible size, and set icons to appear to the right)
+- Left Panel (from left):
+    - Panel Spacer Extended (fixed size: 31px, tooltip disabled, hover effect disabled)
+    - Window Buttons (use metrics from decoration, slide out, show when active window maximized, left margin: 0, right margin: 4px)
+    - Digital Clock (font: 18pt Neuropolitical)
+    - Panel Spacer Extended (fixed size, 6px, tooltip disabled, hover effect disabled)
+    - [Weather Widget 2](https://github.com/blackadderkate/weather-widget-2) (modified) (font style: - Neuropolitical, font size: 26px)
+    - System Tray
+    - Global Menu
+    - Panel Spacer Extended (flexible size, tooltip disabled, hover effect disabled)
+    - Panel Colorizer (enabled, hide widget, panel background: hide)
+        - Layout: Background Margin (Spacing: 4, Vertical: 4, Horizontal: 0)
+        - Layout - Extra Margin: Global Menu (Vertical: 1, Horizontal: 0)
+    - Simple Application Launcher
+- Right Panel (from right):
+    - Panel Spacer Extended (fixed size: 32px, tooltip disabled, hover effect disabled)
+    - [Netspeed Widget](https://store.kde.org/p/2136505) (modified) (upload first, use shortened speed units)
+    - Panel Spacer Extended (flexible size, tooltip disabled, hover effect disabled)
+    - Panel Colorizer (enabled, hide widget, panel background: hide)
+        - Text and Icons (enabled, static color mode, fix custom badges)
+            - Colors (source: system, color: text, color set: view, opacity: 1.0)
+            - Shadow (enabled, color: #69000000, strength: 6, x offset: 1, y offset: 1)
+        - Blacklist: Netspeed Widget
+        - Layout: Background Margin (Spacing: 4, Vertical: 4, Horizontal: 0)
+        - Layout - Extra Margin: Icons-only Task Manager (Vertical: -4, Horizontal: 0)
+    - Icons-only Task Manager (__not__ filling free space on panel, for compatibility with Panel Spacer Extended flexible size, and set icons to appear to the right)
 - Screenshots of Plasma Panel configuration:
 
-![screenshot of left Xeno Plasma Panel config](preview/screenshot-panel-left.png)
+![screenshot of left Xeno Plasma Panel config](preview/screenshot-panel-left-config.png)
 
-![screenshot of right Xeno Plasma Panel config](preview/screenshot-panel-right.png)
+![screenshot of right Xeno Plasma Panel config](preview/screenshot-panel-right-config.png)
 
 ### Keep Conky below other windows/panels (KDE)
 
@@ -145,7 +177,7 @@ Note: Autostart .desktop files require absolute paths to function. Open `conky.d
 - draw_blended: false, to allow drawing other images on top, just to keep the possibility open
 
 #### Lua
-- lua_load: must be an absolute path (no ~) (replace "username" with your actual username. If you put your Conky folder somewhere other than the default location, replace the entire path)
+- lua_load: must be an absolute path (no ~/) (replace "username" with your actual username. If you put your Conky folder somewhere other than the default location, replace the entire path)
 
 ### Lua Customization
 The Xeno Conky theme uses the conky-draw Lua library to draw the system monitor gauge.
@@ -164,10 +196,6 @@ The text section follows the config section. Lines in this section display meter
 - "voffset" (vertical alignment) is entirely relative from the first line/meter, excluding images. Positive values go down and negative values go back up. Font size will affect "voffset"
 - hwmon - the devices to which hwmon labels refer will be different depending on your hardware. In /sys/class/hwmon/ check the "name" file in each numbered folder to discover devices, and then check the sensor label files (e.g. temp1_label) to discover particular sensors. I personally use the motherboard's sensor for CPU temp simply because that reading is generally lower than k10temp
 - Images - the background image is on the final line so other things go on top. Image positioning is absolute
-
-## Known Issues
-
-- hwmon devices sometimes reorder themselves on boot
 
 ### Contributing
 
