@@ -4,7 +4,7 @@ Xeno is a dark theme for Kvantum with colorful gradients and tempered transparen
 
 ![screenshot of Xeno Kvantum theme](preview/screenshot-1.png)
 
-## Installation:
+## Installation
 
 - First, ensure `kvantummanager` is installed. The package name could also be `kvantum`, `kvantum-qt5`, or `qt5-style-kvantum` depending on your distribution
 
@@ -14,18 +14,15 @@ Xeno is a dark theme for Kvantum with colorful gradients and tempered transparen
 - We now have a ~/.config/Kvantum/Xeno
 - In Kvantum Manager -> Change/Delete Theme, use the 'Select a theme' dropdown menu to select Xeno, and press 'Use this theme' to apply the theme
 
-## Recommendations:
+## Recommendations
 
-- Use with the Xeno color scheme
-- Use with the Xeno Aurorae window decoration theme
-- Use with the Sours icon set
-- Use with the Xeno Plasma theme
-- Use with the Xeno Konsole theme
-- Use with the Xeno-gtk GTK theme
-- Use with the Xenofox Firefox theme
-
-## Notes:
-
+- Color scheme: Xeno
+- Window decoration: Xeno
+- Plasma theme: Xeno
+- GTK theme: Xeno-gtk
+- Icons: [Sours](https://github.com/tully-t/Sours)
+- Font: [Neuropolitical](https://www.dafont.com/neuropolitical.font)
+- Firefox theme: [Xenofox](https://github.com/tully-t/Xenofox)
 - Blur:
 
     - In System Settings -> Workspace Behavior -> Desktop Effects, find the Blur row and ensure it is checked.
@@ -33,21 +30,23 @@ Xeno is a dark theme for Kvantum with colorful gradients and tempered transparen
     - Set Blur Strength to 5 (from Light/left)
     - Set Noise Strength to 3 (from Light/left)
 
-- Where did the close buttons on my tabs in Dolphin go?
+## Notes
 
-    Use middle-click or Ctrl+W to close tabs. Without a close button, it is much harder to accidentally close a tab when you meant to select or move it. I wish Dolphin had a GUI setting for this. To reveal the close button on tabs in Dolphin, change the indicator.size value in the [Tab] section of ~/.config/Kvantum/Xeno/Xeno.kvconfig to 8 or higher.
+#### Where did the close buttons on my tabs in Dolphin go?
 
-- For properly-sized borders if you prefer shadowless menus and tooltips:
+Use middle-click or Ctrl+W to close tabs. Without a close button, it is much harder to accidentally close a tab when you meant to select or move it. I wish Dolphin had a GUI setting for this. To reveal the close button on tabs in Dolphin, change the indicator.size value in the [Tab] section of ~/.config/Kvantum/Xeno/Xeno.kvconfig to 8 or higher.
 
-    - Reduce the frame of menus and tooltips to 6 in ~/.config/Kvantum/Xeno/Xeno.kvconfig
+### Xeno-Opaque
 
-## Customization:
+To set Xeno-Opaque for specific apps, use the dropdown in Kvantum Manager -> Application Themes to select Xeno-Opaque, and then list apps by their executable name without spaces like: `audacious,spectacle,plasma-systemmonitor`
+
+## Customization
 
 - Always make a backup first
 
-- Feel free to experiment! Make the theme work for you
+- Feel free to experiment! Make the theme work for you, copy pieces from other themes, go ham
 
-- Use Inkscape to modify Xeno.svg. Modification using a text editor is not particularly recommended for this bad boy, however, an exception can be made for using the 'Find & Replace' function to modify colors - for example, to modify the gradient from blue-purple to yellow-green, finding #8500ff (deep purple) and replacing with #24d864 (lime green), and finding #00ddff (sky blue) and replacing with #e5f230 (yellow). The 'Find & Replace' function is powerful, and can have unintended consequences. Kvantum documentation on the .svg component of themes can be found here: https://github.com/tsujan/Kvantum/blob/master/Kvantum/doc/Theme-Making.pdf
+- Xeno.svg is best modified with Inkscape. You can, however, use a text editor for the 'Find & Replace' function to modify colors without changing shape - for example, to modify the gradient from blue-purple to yellow-green, finding #8500ff (deep purple) and replacing with #24d864 (lime green), and finding #00ddff (sky blue) and replacing with #e5f230 (yellow). The 'Find & Replace' function is powerful, and can have unintended consequences. Kvantum documentation on the .svg component of themes can be found here: https://github.com/tsujan/Kvantum/blob/master/Kvantum/doc/Theme-Making.pdf
 
 - Xeno.kvconfig contains values and colors that are used to scale the parameters or color the text of the corresponding elements in Xeno.svg. It also contains variables to enable inheritance. These can all be manipulated. Kvantum documentation on the .kvconfig component of themes can be found here: https://github.com/tsujan/Kvantum/blob/master/Kvantum/doc/Theme-Config.pdf
 
