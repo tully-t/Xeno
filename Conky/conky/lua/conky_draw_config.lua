@@ -9,7 +9,7 @@ elements = {
     conky_value = 'freq_g',
     max_value = 4.8,
     min_value = 4.2,
-    center = {x = 2341, y = 33},
+    center = {x = 2339, y = 30},
     radius = 11,
 
     background_color = 0xFFFFFF,
@@ -27,7 +27,7 @@ elements = {
 {
     kind = 'ring_graph',
     conky_value = 'memperc',
-    center = {x = 2341, y = 34},
+    center = {x = 2339, y = 31},
     radius = 11,
 
     background_color = 0xFFFFFF,
