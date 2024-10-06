@@ -1,12 +1,12 @@
 # Xeno Conky Theme
 
-Provides an angled panel background and a system monitor gauge. Intended to be used in combination with a transparent panel. Matches the Xeno Aurorae window decoration.
+Provides an notched panel background and a system monitor gauge. Intended to be used in combination with a transparent panel. Matches the Xeno Aurorae window decoration.
 
-![screenshot of Xeno Conky config](preview/screenshot-00.png)
+![screenshot of Xeno Conky config](preview/screenshot-000.png)
 
 With panel, including global menu and media player:
 
-![screenshot of Xeno Conky with Plasma Panel](preview/screenshot-11.png)
+![screenshot of Xeno Conky with Plasma Panel](preview/screenshot-111.png)
 
 Just the conky, no panel:
 
@@ -116,15 +116,14 @@ Note: Autostart .desktop files require absolute paths to function. Open `conky.d
     - Style: Floating
 - Transparency: use [Panel Colorizer](https://store.kde.org/p/2130967) to make the panel background transparent, it also allows for margin correction and provides a drop shadow for the dock icons and media player
 - The top panel with center dock in the screenshots actually consists of two side-by-side panels with a custom width, one left-aligned and one right-aligned
-- On Wayland, two side-by-side panels can be achieved by avoiding the 'Always Visible' Visibility option (I use Dodge Windows) (bug: https://bugs.kde.org/show_bug.cgi?id=477939)
+- On Wayland, two side-by-side panels can be achieved by avoiding the 'Always Visible' visibility option (I use Dodge Windows) (bug: https://bugs.kde.org/show_bug.cgi?id=477939)
 - In edit mode, use the 'Drag to change maximum/minimum width' sliders to align the panels on either side of the middle slant
 - Use [Panel Spacer Extended](https://www.pling.com/p/2128047) for explicit control over spacer length and additional panel actions (e.g. scroll to change volume (kmix), double-click to maximize/restore windows)
 - Left Panel (from left):
-    - Panel Spacer Extended (fixed size: 31px, tooltip disabled, hover effect disabled)
-    - Window Buttons (use metrics from decoration, slide out, show when active window maximized, left margin: 0, right margin: 4px)
-    - Digital Clock (font: 18pt Neuropolitical)
-    - Panel Spacer Extended (fixed size, 6px, tooltip disabled, hover effect disabled)
-    - [Weather Widget 2](https://github.com/blackadderkate/weather-widget-2) (modified) (font style: - Neuropolitical, font size: 26px)
+    - Panel Spacer Extended (fixed size: 32px, tooltip disabled, hover effect disabled)
+    - Window Buttons (show when active window maximized, slide out, use metrics from decoration, left margin: 0, right margin: 2px)
+    - Digital Clock (Text display: Automatic)
+    - [Weather Widget 2](https://github.com/blackadderkate/weather-widget-2) (modified) (further information soon)
     - System Tray
     - Global Menu
     - Panel Spacer Extended (flexible size, tooltip disabled, hover effect disabled)
@@ -133,8 +132,10 @@ Note: Autostart .desktop files require absolute paths to function. Open `conky.d
         - Layout - Extra Margin: Global Menu (Vertical: 1, Horizontal: 0)
     - Simple Application Launcher
 - Right Panel (from right):
-    - Panel Spacer Extended (fixed size: 32px, tooltip disabled, hover effect disabled)
-    - [Netspeed Widget](https://store.kde.org/p/2136505) (modified) (upload first, use shortened speed units)
+    - Panel Spacer Extended (fixed size: 42px, tooltip disabled, hover effect disabled)
+    - [Netspeed Widget](https://store.kde.org/p/2136505) (modified to use ▲ ▼ instead of arrows) (upload first, use shortened speed units)
+    - Panel Spacer Extended (fixed size: 147px, tooltip disabled, hover effect disabled)
+    - Media Player (modified to be right aligned) (intended for release eventually)
     - Panel Spacer Extended (flexible size, tooltip disabled, hover effect disabled)
     - Panel Colorizer (enabled, hide widget, panel background: hide)
         - Text and Icons (enabled, static color mode, fix custom badges)
@@ -157,7 +158,6 @@ Note: Autostart .desktop files require absolute paths to function. Open `conky.d
     - For "Window class (application)", select "Exact Match" and type conky
     - Click "Add Property..." and select "Layer" at the very bottom
     - Use the dropdown menu to change "Normal" to "Below", and click "Apply"
-    Note: Unfortunately Conky will still prevent any clicks from reaching the toolbar that pops up along the panel in Edit mode. You can use `killall conky` to quit Conky before opening Edit mode.
 
 ## Customization
 
@@ -170,7 +170,7 @@ Note: Autostart .desktop files require absolute paths to function. Open `conky.d
 - The config section of conky-xeno.conf is split into subsections for easier navigation: Runtime, Own Window, Alignment, Font, Metadata, and Lua. Notes about pertinent config options:
 
 #### Own window
-- own_window_type: I have found that `'dock'` provides the best results on KDE. The other options are normal, desktop, panel, utility, and override. 'Normal' widows are given window decorations, and KDE has strong opinions about the placement and opacity of 'panel' windows (to be avoided). 'Desktop' and 'override' are not functional options on KDE, and 'utility' is functionally similar to 'normal'.
+- own_window_type: I have found that `'dock'` provides the best results with KDE. The other options are normal, desktop, panel, utility, and override. 'Normal' widows are given window decorations, and KDE has strong opinions about the placement and opacity of 'panel' windows (to be avoided). 'Desktop' and 'override' are not functional options on KDE, and 'utility' is functionally similar to 'normal'.
 - own_window_hints: On Wayland, I have found that the 'below' option is ignored or otherwise not functional. KDE supports wlr_layer_shell, so you can use a Window Rule to force Conky to the 'below' window layer.
 - own_window_argb_value: 0, for transparency
 - use_xft: true, for transparency
