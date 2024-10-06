@@ -66,7 +66,7 @@ Theme files are located in ~/.local/share/aurorae/themes/Xeno
     - In System Settings -> Window Management -> Window Rules, select "Add New..." in the bottom left
     - Add a description, for example, "Minimum Window Width"
     - For window class, use the dropdown menu to select "Regular Expression"
-    - In the text field to the right of the dropdown, paste the following to exclude Latte Dock from the rule: `^(?!.*\bplasma\b).*$`
+    - In the text field to the right of the dropdown, paste the following to exclude the Plasma shell from the rule: `^(?!.*\bplasma\b).*$`
     - For "Match whole window class", select Yes
     - For window types, uncheck "All Window Types" to uncheck all of them, and then check "Normal Window" and "Dialog Window" for a total of 2
     - Select "Add Property..." in the lower left and scroll down to choose "Minimum Size"
