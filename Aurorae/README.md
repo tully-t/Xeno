@@ -9,9 +9,9 @@ The Xeno window decoration is a dark theme for Aurorae with an alien shape and a
 - Close, maximize, and minimize buttons grow when hovered and glow when pressed
 - No korners
 
-![screenshot of Xeno window decoration](preview/screenshot-1.png)
+![screenshot of Xeno window decoration](preview/screenshot-11.png)
 
-![screenshot of Xeno window decoration with active and inactive windows](preview/screenshot-2.png)
+![screenshot of Xeno window decoration with active and inactive windows](preview/screenshot-22.png)
 
 ## Installation
 
@@ -23,10 +23,14 @@ The Xeno window decoration is a dark theme for Aurorae with an alien shape and a
 
 ## Recommendations
 
+- Icons [Sours](https://github.com/tully-t/Sours)
+- Kvantum theme: [Xeno](https://github.com/tully-t/Xeno/tree/main/Kvantum)
+- Plasma theme: [Xeno](https://github.com/tully-t/Xeno/tree/main/Plasma)
+- Color scheme: [Xeno](https://github.com/tully-t/Xeno/tree/main/color-schemes)
+- GTK theme: [Xeno-gtk](https://github.com/tully-t/Xeno/tree/main/GTK)
+
 - In System Settings -> Appearance -> Window Decorations -> Titlebar Buttons: Use the 'More actions for this window' button to display the application icon (unfortunately the 'Application menu' button is coded to hide the icon on windows without a global menu)
-- Install gtk3-nocsd (gtk3-nocsd-git in the AUR) to disable client-side decorations for gtk3 apps https://github.com/fredldotme/gtk3-nocsd / https://aur.archlinux.org/packages/gtk3-nocsd-git
-- Use with the [Xeno Kvantum theme](https://github.com/tully-t/Xeno/tree/main/Kvantum)
-- Use with the [Sour icon set](https://github.com/tully-t/Sours)
+- When an app has the default 'W' Walyand icon, you can give it a more specific one by navigating to the 'More actions for this window' menu -> More Actions -> Configure Special Application Settings... -> Add Property -> Desktop file name -> Force -> put the preferred desktop file name. I used this method to correct the OpenRGB icon (desktop file name OpenRGB) and to give Kvantum Preview the Kvantum Manager icon (desktop file name kvantummanager). The .desktop files are located in either ~/.local/share/applications or /usr/share/applications
 
 ## Customization
 
