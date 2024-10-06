@@ -23,7 +23,7 @@ The Xeno window decoration is a dark theme for Aurorae with an alien shape and a
 
 ## Recommendations
 
-- Icons [Sours](https://github.com/tully-t/Sours)
+- Icons: [Sours](https://github.com/tully-t/Sours)
 - Kvantum theme: [Xeno](https://github.com/tully-t/Xeno/tree/main/Kvantum)
 - Plasma theme: [Xeno](https://github.com/tully-t/Xeno/tree/main/Plasma)
 - Color scheme: [Xeno](https://github.com/tully-t/Xeno/tree/main/color-schemes)
