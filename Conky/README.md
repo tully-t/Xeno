@@ -2,11 +2,11 @@
 
 Provides an notched panel background and a system monitor gauge. Intended to be used in combination with a transparent panel. Matches the Xeno Aurorae window decoration.
 
-![screenshot of Xeno Conky config](preview/screenshot-000.png)
+![screenshot of Xeno Conky config](preview/screenshot-0.png)
 
 With panel, including global menu and media player:
 
-![screenshot of Xeno Conky with Plasma Panel](preview/screenshot-111.png)
+![screenshot of Xeno Conky with Plasma Panel](preview/screenshot-1.png)
 
 Just the conky, no panel:
 
@@ -15,6 +15,10 @@ Just the conky, no panel:
 System monitor gauge labels:
 
 ![screenshot of Xeno Conky gauge with labels](preview/screenshot-gauge.png)
+
+## Recommendations
+- Plasma theme: [Xeno](https://github.com/tully-t/Xeno/tree/main/Plasma)
+- Font: [Neuropolitical](https://www.dafont.com/neuropolitical.font)
 
 ## Installation
 
