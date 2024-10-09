@@ -9,9 +9,9 @@ The Xeno window decoration is a dark theme for Aurorae with an alien shape and a
 - Close, maximize, and minimize buttons grow when hovered and glow when pressed
 - No korners
 
-![screenshot of Xeno window decoration](preview/screenshot-11.png)
+![screenshot of Xeno window decoration](preview/screenshot-0.png)
 
-![screenshot of Xeno window decoration with active and inactive windows](preview/screenshot-22.png)
+![screenshot of Xeno window decoration with active and inactive windows](preview/screenshot-3.png)
 
 ## Installation
 
