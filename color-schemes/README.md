@@ -2,7 +2,7 @@
 
 A dark color scheme for KDE to compliment the Xeno Kvantum theme.
 
-![screenshot of Xeno color scheme](preview/screenshot-0.png)
+![screenshot of Xeno color scheme](preview/screenshot-1.png)
 
 ## Installation
 
