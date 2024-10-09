@@ -2,15 +2,15 @@
 
 Provides an notched panel background and a system monitor gauge. Intended to be used in combination with a transparent panel. Matches the Xeno Aurorae window decoration.
 
-![screenshot of Xeno Conky config](preview/screenshot-0.png)
+![screenshot of Xeno Conky config](preview/screenshot-01.png)
 
 With panel, including global menu and media player:
 
-![screenshot of Xeno Conky with Plasma Panel](preview/screenshot-1.png)
+![screenshot of Xeno Conky with Plasma Panel](preview/screenshot-02.png)
 
 Just the conky, no panel:
 
-![screenshot of Xeno Conky without Plasma Panel](preview/screenshot-2.png)
+![screenshot of Xeno Conky without Plasma Panel](preview/screenshot-blank.png)
 
 System monitor gauge labels:
 
