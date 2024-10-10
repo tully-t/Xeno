@@ -21,11 +21,11 @@ Each component folder contains a README with installation instructions, recommen
 
 ## Preview
 
-![screenshot of Xeno Aurorae window decoration](preview/screenshot-aurorae.png)
+![screenshot of Xeno Aurorae window decoration](preview/screenshot-aurorae-0.png)
 
-![screenshot of Xeno Kvantum theme](preview/screenshot-kvantum.png)
+![screenshot of Xeno Kvantum theme](preview/screenshot-kvantum-0.png)
 
-![screenshot of Xeno Plasma theme](preview/screenshot-plasma.png)
+![screenshot of Xeno Plasma theme](preview/screenshot-plasma-01.png)
 
 ![screenshot of Xeno-gtk GTK theme](preview/screenshot-gtk.png)
 
