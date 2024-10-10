@@ -6,9 +6,9 @@ Xeno is a dark theme for Plasma with colorful gradients and a cyberpunk glow. Fe
 
 ![screenshot of Xeno Plasma theme Plasma Panel](preview/screenshot-02.png)
 
-Screenshot above depicts a Plasma Panel using the [Xeno Conky theme](https://github.com/tully-t/Xeno/tree/main/Conky) and the [Panel Colorizer](https://store.kde.org/p/2130967)
+Screenshot above depicts a Plasma Panel using the Xeno Plasma theme as well as the [Xeno Conky theme](https://github.com/tully-t/Xeno/tree/main/Conky) and the [Panel Colorizer](https://store.kde.org/p/2130967)
 
-Screenshot below depicts a Plasma Panel without using the [Xeno Conky theme](https://github.com/tully-t/Xeno/tree/main/Conky) and the [Panel Colorizer](https://store.kde.org/p/2130967)
+Screenshot below depicts a Plasma Panel using the Xeno Plasma theme but without using the [Xeno Conky theme](https://github.com/tully-t/Xeno/tree/main/Conky) and the [Panel Colorizer](https://store.kde.org/p/2130967)
 
 ![screenshot of Xeno Plasma theme Plasma Panel with no Conky or Panel Colorizer](preview/screenshot-opaque.png)
 
