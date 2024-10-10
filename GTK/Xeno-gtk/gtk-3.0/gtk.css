@@ -4203,7 +4203,7 @@ messagedialog .dialog-action-box button:hover, messagedialog .dialog-action-box 
 }*/
 
 messagedialog .dialog-action-box button.suggested-action:not(:disabled), messagedialog .dialog-action-box .linked:not(.vertical) > button.suggested-action:not(:disabled) {
-  color: #8500ff;
+  color: #dddddd;
 }
 
 messagedialog .dialog-action-box button.destructive-action:not(:disabled), messagedialog .dialog-action-box .linked:not(.vertical) > button.destructive-action:not(:disabled) {
@@ -4293,7 +4293,7 @@ stacksidebar.sidebar row {
   min-height: 32px;
   padding: 0 3px;
   border-radius: 6px;
-  transition: all 120ms cubic-bezier(0.25, 0.46, 0.45, 0.94), background-size 0ms, background-image 0ms, background-color 0ms;
+  transition: all 120ms cubic-bezier(0.25, 0.46, 0.45, 0.94), background-size 0ms, background-image 0ms, background-color 0ms, border 0ms, padding 0ms, margin 0ms;
   outline: none;
   /*background-color: rgba(170, 170, 172, 0.08);
   background-image: none;
@@ -4303,7 +4303,6 @@ stacksidebar.sidebar row {
 }
 
 stacksidebar.sidebar row:hover {
-  transition: all 120ms cubic-bezier(0.25, 0.46, 0.45, 0.94);
   /*, border-image 225ms cubic-bezier(0, 0, 0.2, 1), background-color 300ms cubic-bezier(0, 0, 0.2, 1), background-size 300ms cubic-bezier(0, 0, 0.2, 1), background-image 1200ms cubic-bezier(0, 0, 0.2, 1);
   background-image: radial-gradient(circle, transparent 10%, transparent 0%);
   background-repeat: no-repeat;
@@ -4313,7 +4312,6 @@ stacksidebar.sidebar row:hover {
 }
 
 stacksidebar.sidebar row:active {
-  transition: all 120ms cubic-bezier(0.25, 0.46, 0.45, 0.94), background-size 0ms, background-image 0ms, border 0ms;
   /*animation: ripple 225ms cubic-bezier(0, 0, 0.2, 1) forwards;
   background-image: radial-gradient(circle, rgba(106, 88, 240, 0.75) 10%, rgba(207, 84, 208, 0.75) 0%);
   background-size: 0% 0%;
@@ -4326,7 +4324,6 @@ stacksidebar.sidebar row:active image, stacksidebar.sidebar row:active label {
 }
 
 stacksidebar.sidebar row:selected {
-  transition: all 120ms cubic-bezier(0.25, 0.46, 0.45, 0.94), background-size 0ms, background-image 0ms, border 0ms;
   /* background-size 0ms, background-image 0ms, background-color 0ms, box-shadow 0ms;
   background-image: linear-gradient(to right, #00ddff, #8500ff);
   background-repeat: no-repeat;
@@ -4382,7 +4379,7 @@ placessidebar.sidebar row {
   margin: 0;
   padding: 0;
   border-radius: 6px;
-  transition: all 120ms cubic-bezier(0.25, 0.46, 0.45, 0.94), background-size 0ms, background-image 0ms, background-color 0ms;
+  transition: all 120ms cubic-bezier(0.25, 0.46, 0.45, 0.94), background-size 0ms, background-image 0ms, background-color 0ms, border 0ms, padding 0ms, margin 0ms;
   outline: none;
   background-color: rgba(170, 170, 172, 0.08);
   background-image: none;
@@ -4392,14 +4389,12 @@ placessidebar.sidebar row {
 }
 
 placessidebar.sidebar row:hover {
-  transition: all 120ms cubic-bezier(0.25, 0.46, 0.45, 0.94), border-image 225ms cubic-bezier(0, 0, 0.2, 1), background-color 300ms cubic-bezier(0, 0, 0.2, 1);
   background-color: alpha(currentColor, 0.2);
   outline: 0 solid transparent;
   outline-offset: 2px;
 }
 
 placessidebar.sidebar row:active {
-  transition: all 120ms cubic-bezier(0.25, 0.46, 0.45, 0.94), width 120ms ease, background-size 120ms cubic-bezier(0.2, 0, 0.5, 0);
   background-color: transparent;
   background-size: 10% 2px;
   color: #DDDDDD;
@@ -4412,7 +4407,6 @@ placessidebar.sidebar row:active image, placessidebar.sidebar row:active label {
 }
 
 placessidebar.sidebar row:selected {
-  transition: width 120ms ease, background-size 120ms cubic-bezier(0.2, 0, 0.5, 0);
   background: linear-gradient(to right, transparent 3%, #00ddff 3%, #8500ff 97%, transparent 97%) left bottom transparent no-repeat;
   background-size: 100% 2px;
   border: 0;
@@ -4468,7 +4462,6 @@ placessidebar.sidebar row.sidebar-new-bookmark-row image.sidebar-icon {
 }
 
 placessidebar.sidebar row:drop(active) {
-  transition: all 120ms cubic-bezier(0.25, 0.46, 0.45, 0.94), box-shadow 0ms, background-size 300ms cubic-bezier(0, 0, 0.2, 1), background-image 200ms cubic-bezier(0, 0, 0.2, 1);
   background-color: alpha(currentColor, 0.08);
 }
 
