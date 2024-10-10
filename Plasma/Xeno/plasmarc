@@ -1,0 +1,14 @@
+[Theme]
+name=Xeno
+
+[Settings]
+FallbackTheme=Oxygen
+
+[AdaptiveTransparency]
+enabled=false
+
+[ContrastEffect]
+enabled=false
+contrast=55
+intensity=1.2
+saturation=1

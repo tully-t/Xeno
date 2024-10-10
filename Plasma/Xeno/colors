@@ -20,14 +20,18 @@ BackgroundNormal=26,26,26,26
 
 [Colors:View]
 BackgroundNormal=26,26,26
+BackgroundAlternate=51,51,51
 DecorationFocus=170,170,172,117
 DecorationHover=170,170,172,86
 ForegroundNormal=221,221,221
 ForegroundInactive=187,187,187
 
 [Colors:Window]
+# plasmoid config windows
 BackgroundNormal=26,26,26
+BackgroundAlternate=51,51,51
 DecorationFocus=133,0,255
 DecorationHover=170,170,172,86
 ForegroundNormal=221,221,221
 ForegroundInactive=187,187,187
+ForegroundNegative=133,0,255
