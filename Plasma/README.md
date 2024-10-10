@@ -2,15 +2,15 @@
 
 Xeno is a dark theme for Plasma with colorful gradients and a cyberpunk glow. Features a radial background gradient.
 
-![screenshot of Xeno Plasma theme](preview/screenshot-00.png)
+![screenshot of Xeno Plasma theme](preview/screenshot-01.png)
 
-![screenshot of Xeno Plasma theme Plasma Panel](preview/screenshot-11.png)
+![screenshot of Xeno Plasma theme Plasma Panel](preview/screenshot-12.png)
 
-Screenshot above depicts a Plasma Panel using the [Xeno Conky theme](https://github.com/tully-t/Xeno/tree/main/Conky) and the [Plasma Transparency Button](https://store.kde.org/p/2150916)
+Screenshot above depicts a Plasma Panel using the [Xeno Conky theme](https://github.com/tully-t/Xeno/tree/main/Conky) and the [Panel Colorizer](https://store.kde.org/p/2130967)
 
-Screenshot below depicts a Plasma Panel without using the [Xeno Conky theme](https://github.com/tully-t/Xeno/tree/main/Conky) and the [Plasma Transparency Button](https://store.kde.org/p/2150916)
+Screenshot below depicts a Plasma Panel without using the [Xeno Conky theme](https://github.com/tully-t/Xeno/tree/main/Conky) and the [Panel Colorizer](https://store.kde.org/p/2130967)
 
-![screenshot of Xeno Plasma theme Plasma Panel with no Conky or Plasma Transparency Button](preview/screenshot-22.png)
+![screenshot of Xeno Plasma theme Plasma Panel with no Conky or Panel Colorizer](preview/screenshot-opaque.png)
 
 ## Installation
 
@@ -50,11 +50,10 @@ Screenshot below depicts a Plasma Panel without using the [Xeno Conky theme](htt
 - In edit mode, use the 'Drag to change maximum/minimum width' sliders to align the panels on either side of the middle slant
 - Use [Panel Spacer Extended](https://www.pling.com/p/2128047) for explicit control over spacer length and additional panel actions (e.g. scroll to change volume (kmix), double-click to maximize/restore windows)
 - Left Panel (from left):
-    - Panel Spacer Extended (fixed size: 31px, tooltip disabled, hover effect disabled)
-    - Window Buttons (use metrics from decoration, slide out, show when active window maximized, left margin: 0, right margin: 4px)
-    - Digital Clock (font: 18pt Neuropolitical)
-    - Panel Spacer Extended (fixed size, 6px, tooltip disabled, hover effect disabled)
-    - [Weather Widget 2](https://github.com/blackadderkate/weather-widget-2) (modified) (font style: - Neuropolitical, font size: 26px)
+    - Panel Spacer Extended (fixed size: 32px, tooltip disabled, hover effect disabled)
+    - Window Buttons (show when active window maximized, slide out, use metrics from decoration, left margin: 0, right margin: 2px)
+    - Digital Clock (Text display: Automatic)
+    - [Weather Widget 2](https://github.com/blackadderkate/weather-widget-2) (modified) (further information soon)
     - System Tray
     - Global Menu
     - Panel Spacer Extended (flexible size, tooltip disabled, hover effect disabled)
@@ -63,8 +62,10 @@ Screenshot below depicts a Plasma Panel without using the [Xeno Conky theme](htt
         - Layout - Extra Margin: Global Menu (Vertical: 1, Horizontal: 0)
     - Simple Application Launcher
 - Right Panel (from right):
-    - Panel Spacer Extended (fixed size: 32px, tooltip disabled, hover effect disabled)
-    - [Netspeed Widget](https://store.kde.org/p/2136505) (modified) (upload first, use shortened speed units)
+    - Panel Spacer Extended (fixed size: 42px, tooltip disabled, hover effect disabled)
+    - [Netspeed Widget](https://store.kde.org/p/2136505) (modified to use ▲ ▼ instead of arrows) (upload first, use shortened speed units)
+    - Panel Spacer Extended (fixed size: 147px, tooltip disabled, hover effect disabled)
+    - Media Player (modified to be right aligned) (intended for release eventually)
     - Panel Spacer Extended (flexible size, tooltip disabled, hover effect disabled)
     - Panel Colorizer (enabled, hide widget, panel background: hide)
         - Text and Icons (enabled, static color mode, fix custom badges)
@@ -73,7 +74,7 @@ Screenshot below depicts a Plasma Panel without using the [Xeno Conky theme](htt
         - Blacklist: Netspeed Widget
         - Layout: Background Margin (Spacing: 4, Vertical: 4, Horizontal: 0)
         - Layout - Extra Margin: Icons-only Task Manager (Vertical: -4, Horizontal: 0)
-    - Icons-only Task Manager (_not_ filling free space on panel, for compatibility with Panel Spacer Extended flexible size, and set icons to appear to the right)
+    - Icons-only Task Manager (__not__ filling free space on panel, for compatibility with Panel Spacer Extended flexible size, and set icons to appear to the right)
 - Screenshots of Plasma Panel configuration:
 
 ![screenshot of left Xeno Plasma Panel config](preview/screenshot-panel-left-config.png)
