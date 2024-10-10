@@ -1,6 +1,6 @@
 # Xeno Conky Theme
 
-Provides an notched panel background and a system monitor gauge. Intended to be used in combination with a transparent panel. Matches the Xeno Aurorae window decoration.
+Provides a notched panel background and a system monitor gauge. Intended to be used in combination with a transparent panel. Matches the Xeno Aurorae window decoration.
 
 ![screenshot of Xeno Conky config](preview/screenshot-01.png)
 
