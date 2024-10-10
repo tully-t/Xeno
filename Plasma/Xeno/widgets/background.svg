@@ -860,11 +860,11 @@
      borderlayer="true"
      inkscape:showpageshadow="false"
      showgrid="true"
-     inkscape:current-layer="layer1"
+     inkscape:current-layer="center"
      inkscape:document-units="px"
-     inkscape:cy="33.808544"
-     inkscape:cx="61.474099"
-     inkscape:zoom="11.313708"
+     inkscape:cy="62.75573"
+     inkscape:cx="54.182059"
+     inkscape:zoom="5.656854"
      inkscape:pageshadow="2"
      inkscape:pageopacity="1"
      borderopacity="1"
@@ -907,6 +907,12 @@
        id="center"
        inkscape:label="center"
        style="display:inline">
+      <path
+         inkscape:connector-curvature="0"
+         style="display:inline;opacity:1;fill:none;fill-opacity:1;stroke:none"
+         d="m 83,27.362183 h 25.00077 v 25 H 83 Z"
+         id="shadow-center"
+         sodipodi:nodetypes="ccccc" />
       <path
          inkscape:connector-curvature="0"
          style="opacity:1;fill:url(#radialGradient3);fill-opacity:1;stroke:none"

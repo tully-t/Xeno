@@ -275,9 +275,9 @@
      inkscape:window-maximized="1"
      inkscape:window-y="0"
      inkscape:window-x="0"
-     inkscape:cy="77.375"
-     inkscape:cx="85.125"
-     inkscape:zoom="4"
+     inkscape:cy="181.5"
+     inkscape:cx="88"
+     inkscape:zoom="2"
      showgrid="true"
      id="namedview416"
      inkscape:window-height="704"
@@ -289,7 +289,7 @@
      objecttolerance="10"
      borderopacity="1"
      bordercolor="#666666"
-     pagecolor="#602929"
+     pagecolor="#505050"
      inkscape:showpageshadow="2"
      inkscape:pagecheckerboard="0"
      inkscape:deskcolor="#d1d1d1">
@@ -1361,4 +1361,34 @@
      fill-rule="evenodd"
      style="stroke-width:4.24262"
      inkscape:label="hint-stretch-borders" />
+  <rect
+     id="focus-hint-stretch-borders"
+     x="145.26686"
+     y="25.599609"
+     width="12"
+     height="12"
+     fill="#ff00ff"
+     fill-rule="evenodd"
+     style="stroke-width:4.24262"
+     inkscape:label="focus-hint-stretch-borders" />
+  <rect
+     id="hint-focus-over-base"
+     x="164.2002"
+     y="10.000001"
+     width="12"
+     height="12"
+     fill="#ff00ff"
+     fill-rule="evenodd"
+     style="stroke-width:4.24262"
+     inkscape:label="hint-focus-over-base" />
+  <rect
+     id="hint-stretch-center"
+     x="164.2002"
+     y="25.599609"
+     width="12"
+     height="12"
+     fill="#ff00ff"
+     fill-rule="evenodd"
+     style="stroke-width:4.24262"
+     inkscape:label="hint-stretch-center" />
 </svg>
