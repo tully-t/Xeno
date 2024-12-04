@@ -1344,8 +1344,8 @@ spinbutton:not(.vertical) button {
   min-height: 16px;
   min-width: 16px;
   border: solid 2px transparent;
-  margin: 3px;
-  padding: 0 3px;
+  margin: 3px 3px 3px 3px;
+  padding: 2px 3px 1px 3px;
 
 }
 
@@ -7260,7 +7260,7 @@ window.background:not(.csd) > window > menu menuitem {
 /************
  * Inkscape *
  ************/
-#ToolboxCommon > #AuxToolbox #StyleSwatch {
+/*#ToolboxCommon > #AuxToolbox #StyleSwatch {
   font-size: smaller;
 }
 
@@ -7293,7 +7293,7 @@ window.background:not(.csd) > window > menu menuitem {
 #ToolboxCommon > #AuxToolbox button.flat:not(spinbutton) {
   padding: 3px;
   margin: 8px 1px;
-}
+}*/
 
 /*#ToolboxCommon > #AuxToolbox #gtk-toolbutton-arrow {
   padding: 0;
@@ -7336,17 +7336,18 @@ window.background:not(.csd) > window > menu menuitem {
 /*#ZoomStatus spinbutton, #RotationStatus spinbutton, #SelectedStyle > spinbutton*/
 /* #select-x spinbutton button, #select-y spinbutton button, #select-width spinbutton button */
 
-#ToolboxCommon > #AuxToolbox spinbutton button {
+#SubToolBox spinbutton button {
   min-height: 16px;
   min-width: 16px;
   border: solid 4px transparent;
-  margin: 5px 3px;
+  margin: 3px 3px 3px 1px;
+  padding: 1px 3px 0 3px;
   /*padding: 0 6px;*/
   /*margin: 6px 4px;
   padding: 0 4px;*/
 }
 
-#ToolboxCommon > #AuxToolbox spinbutton button:hover {
+#SubToolBox spinbutton button:hover {
   box-shadow: inset 0 0 0 9999px rgba(170, 170, 172, 0.2);
   border: solid 4px rgba(170, 170, 172, 0.2);
   background-color: transparent;
@@ -7363,7 +7364,9 @@ window.background:not(.csd) > window > menu menuitem {
   /*min-height: 16px;
   min-width: 16px;*/
   border: solid 4px transparent;
-  margin: 3px;
+  margin: 4px 3px 3px 2px;
+  padding: 1px 3px 0 3px;
+  /*margin: 3px;*/
   /*padding: 0;*/
   /*margin: 7px 4px;
   padding: 0 6px;*/
@@ -7379,21 +7382,18 @@ window.background:not(.csd) > window > menu menuitem {
   * min-height: 48px;
  } **/
 
-#InkSpinScale {
-  min-height: 18px;
-}
+/*#InkSpinScale {
+  min-height: 10px;
+}*/
 
-#InkSpinScale spinbutton {
-/*padding-top: 0;
- * padding-bottom: 0;
- * margin-top: 0;
- * margin-bottom: 0;*/
-  min-height: 18px;
-}
+/*#InkSpinScale spinbutton {
+  min-height: 10px;
+}*/
 
 #InkSpinScale spinbutton button {
-  margin: 5px 3px;
   border: solid 4px transparent;
+  margin: 5px 3px 5px 2px;
+  /*margin-right: 5px;*/
 }
 
 #InkSpinScale spinbutton button:hover {
@@ -7402,9 +7402,9 @@ window.background:not(.csd) > window > menu menuitem {
   background-color: transparent;
 }
 
-#InkSpinScale spinbutton entry {
-  min-height: 18px;
-}
+/*#InkSpinScale spinbutton entry {
+  min-height: 10px;
+}*/
 
 /* Selected Style affects Zoom and Rotation for some reason, all in DesktopStatusBar */
 
@@ -7441,12 +7441,12 @@ window.background:not(.csd) > window > menu menuitem {
 
 /*#DesktopStatusBar > #ZoomStatus spinbutton button, #DesktopStatusBar > #RotationStatus spinbutton button */
 
-#DesktopStatusBar spinbutton button {
+#Statusbar spinbutton button {
   min-height: 16px;
   min-width: 16px;
   border: solid 2px transparent;
-  margin: 5px 3px;
-  padding: 0;
+  margin: 4px 4px 5px 4px;
+  padding: 0 2px 0 2px;
 }
 
 /* box-shadow: inset 0 2px 0 9999px rgba(170, 170, 172, 0.2), inset 0 -2px 0 9999px rgba(170, 170, 172, 0.2); */
@@ -7454,21 +7454,19 @@ window.background:not(.csd) > window > menu menuitem {
 /*#ZoomStatus spinbutton button:hover, #DesktopStatusBar > #RotationStatus spinbutton button:hover*/
 /* #DesktopStatusBar spinbutton button:hover */
 /*#DesktopStatusBar > #ZoomStatus spinbutton button:hover, #DesktopStatusBar > #RotationStatus spinbutton button:hover*/
-#DesktopStatusBar spinbutton button:hover {
+#Statusbar spinbutton button:hover {
   box-shadow: inset 0 0 0 9999px rgba(170, 170, 172, 0.2);
   border: solid 2px rgba(170, 170, 172, 0.2);
   background-color: transparent;
-  background-size: 50% 50%;
-  padding: 0;
 }
 
-#DesktopStatusBar spinbutton:not(.vertical) button.up:dir(ltr), #DesktopStatusBar spinbutton:not(.vertical) button.down:dir(rtl), #ToolboxCommon > #AuxToolbox spinbutton:not(.vertical) button.up:dir(ltr), #ToolboxCommon > #AuxToolbox spinbutton:not(.vertical) button.down:dir(rtl), #DockedDialogNotebook spinbutton:not(.vertical) button.up:dir(ltr), #DockedDialogNotebook spinbutton:not(.vertical) button.down:dir(rtl) {
+/*#Statusbar spinbutton:not(.vertical) button.up:dir(ltr), #DesktopStatusBar spinbutton:not(.vertical) button.down:dir(rtl), #ToolboxCommon > #AuxToolbox spinbutton:not(.vertical) button.up:dir(ltr), #ToolboxCommon > #AuxToolbox spinbutton:not(.vertical) button.down:dir(rtl), #DockedDialogNotebook spinbutton:not(.vertical) button.up:dir(ltr), #DockedDialogNotebook spinbutton:not(.vertical) button.down:dir(rtl) {
   margin-left: 1px;
 }
 
-#DesktopStatusBar spinbutton:not(.vertical) button.up:dir(rtl), #DesktopStatusBar spinbutton:not(.vertical) button.down:dir(ltr), #ToolboxCommon > #AuxToolbox spinbutton:not(.vertical) button.up:dir(rtl), #ToolboxCommon > #AuxToolbox spinbutton:not(.vertical) button.down:dir(ltr), #DockedDialogNotebook spinbutton:not(.vertical) button.up:dir(rtl), #DockedDialogNotebook spinbutton:not(.vertical) button.down:dir(ltr) {
+#Statusbar spinbutton:not(.vertical) button.up:dir(rtl), #DesktopStatusBar spinbutton:not(.vertical) button.down:dir(ltr), #ToolboxCommon > #AuxToolbox spinbutton:not(.vertical) button.up:dir(rtl), #ToolboxCommon > #AuxToolbox spinbutton:not(.vertical) button.down:dir(ltr), #DockedDialogNotebook spinbutton:not(.vertical) button.up:dir(rtl), #DockedDialogNotebook spinbutton:not(.vertical) button.down:dir(ltr) {
   margin-right: 1px;
-}
+}*/
 
 /*#DesktopStatusBar > #ZoomStatus spinbutton button, #RotationStatus spinbutton.RotationStatus button {
 padding: 0 4px;
@@ -7545,6 +7543,10 @@ scrolledwindow#DialogNotebook > viewport.frame #DialogMenuButton {
   min-width: 18px;
   margin-right: 2px;
 }
+
+/*#DockedDialogNotebook #ObjectsTreeView .view > GtkTreeSelection {
+  background-color: rgba(170, 170, 172, 0.35);
+}*/
 
 /***********
  * Lutris *
@@ -9297,7 +9299,7 @@ text widgets and the like base background color */
 @define-color theme_base_color #1a1a1a;
 /*
 base background color of selections */
-@define-color theme_selected_bg_color #8500ff;
+@define-color theme_selected_bg_color rgba(170, 170, 172, 0.35);
 /*
 text/foreground color of selections */
 @define-color theme_selected_fg_color #DDDDDD;
