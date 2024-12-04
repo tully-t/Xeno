@@ -38,7 +38,7 @@ Use middle-click or Ctrl+W to close tabs. Without a close button, it is much har
 
 ### Xeno-Opaque
 
-To set Xeno-Opaque for specific apps, use the dropdown in Kvantum Manager -> Application Themes to select Xeno-Opaque, and then list apps by their executable name without spaces like: `audacious,spectacle,plasma-systemmonitor`
+To set Xeno-Opaque for specific apps, use the dropdown in Kvantum Manager -> Application Themes to select Xeno-Opaque, and then list apps by their executable name without spaces like: `audacious,spectacle,plasma-systemmonitor,systemsettings`
 
 ## Customization
 
@@ -56,7 +56,7 @@ To set Xeno-Opaque for specific apps, use the dropdown in Kvantum Manager -> App
 
     - The variables can be in #RRGGBB or #RRGGBBAA (with alpha) format, or given a valid color name like red.
 
-    - window.color: This is ironically not used as the window background when the option 'Translucent windows' is checked in Kvantum Manager -> Configure Active Theme -> Compositing & General Look. It is used seemingly at random elsewhere: sometimes as a widget background (as in OpenRGB) and, unfortunately, as the background for the tab overflow button.
+    - window.color: This is ironically not used as the window background when the option 'Translucent windows' is checked in Kvantum Manager -> Configure Active Theme -> Compositing & General Look. It is used seemingly at random elsewhere, sometimes as a widget background (as in OpenRGB).
 
     - base.color: The color of widget backgrounds.
 
