@@ -124,13 +124,13 @@ blur_only_active_window=false
 
 [PanelButtonCommand]
 frame=true
-frame.element=button
-frame.top=4
-frame.bottom=4
-frame.left=4
-frame.right=4
+frame.element=tab
+frame.top=7
+frame.bottom=7
+frame.left=7
+frame.right=7
 interior=true
-interior.element=button
+interior.element=tab
 indicator.size=8
 text.normal.color=#bbbbbb
 text.focus.color=#dddddd
@@ -151,6 +151,10 @@ frame.expansion=12
 inherits=PanelButtonCommand
 frame=true
 frame.element=combo
+frame.top=4
+frame.bottom=4
+frame.left=4
+frame.right=4
 interior.element=combo
 text.bold=false
 
@@ -173,7 +177,7 @@ text.focus.color=#dddddd
 text.bold=false
 
 [IndicatorSpinBox]
-inherits=PanelButtonCommand
+inherits=PanelButtonTool
 frame=true
 interior=true
 frame.left=1
@@ -217,7 +221,7 @@ frame.left=1
 frame.right=1
 
 [LineEdit]
-inherits=PanelButtonCommand
+inherits=PanelButtonTool
 frame.element=lineedit
 interior.element=lineedit
 text.margin.left=6
@@ -226,7 +230,7 @@ text.margin.top=3
 text.margin.bottom=3
 
 [ToolbarLineEdit]
-inherits=PanelButtonCommand
+inherits=PanelButtonTool
 frame.element=lineedit
 interior.element=lineedit
 text.margin.left=6
@@ -287,10 +291,6 @@ indicator.element=tree
 inherits=PanelButtonCommand
 interior.element=header
 frame.element=header
-frame.top=3
-frame.bottom=3
-frame.left=3
-frame.right=3
 text.bold=false
 text.normal.color=#bbbbbb
 text.focus.color=#dddddd
@@ -319,7 +319,7 @@ frame.expansion=0
 text.bold=false
 
 [ToolbarButton]
-inherits=PanelButtonCommand
+inherits=PanelButtonTool
 frame=true
 frame.element=combo
 interior.element=combo
@@ -429,6 +429,9 @@ inherits=PanelButtonCommand
 frame.element=menubar
 interior.element=menubar
 text.normal.color=#bbbbbb
+frame.top=4
+frame.left=4
+frame.right=4
 frame.bottom=0
 frame.expansion=0
 
@@ -456,7 +459,7 @@ text.italic=false
 frame.expansion=0
 
 [ComboBox]
-inherits=PanelButtonCommand
+inherits=PanelButtonTool
 interior.element=button
 frame.element=button
 text.press.color=#dddddd
