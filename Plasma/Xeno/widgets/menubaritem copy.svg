@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <svg
-   inkscape:version="1.3.2 (091e20ef0f, 2023-11-25, custom)"
-   sodipodi:docname="menubaritem.svg"
+   inkscape:version="1.4 (e7c3feb100, 2024-10-09)"
+   sodipodi:docname="menubaritem copy.svg"
    id="svg414"
    version="1.0"
    height="212"
@@ -36,9 +36,9 @@
      inkscape:window-maximized="1"
      inkscape:window-y="0"
      inkscape:window-x="0"
-     inkscape:cy="24.439378"
-     inkscape:cx="96.93992"
-     inkscape:zoom="22.627417"
+     inkscape:cy="106"
+     inkscape:cx="102.375"
+     inkscape:zoom="4"
      showgrid="true"
      id="namedview416"
      inkscape:window-height="704"
@@ -50,10 +50,10 @@
      objecttolerance="10"
      borderopacity="1"
      bordercolor="#666666"
-     pagecolor="#602929"
+     pagecolor="#505050"
      inkscape:showpageshadow="2"
      inkscape:pagecheckerboard="0"
-     inkscape:deskcolor="#d1d1d1">
+     inkscape:deskcolor="#696969">
     <inkscape:grid
        id="grid1331"
        type="xygrid"
@@ -144,14 +144,14 @@
        gradientUnits="userSpaceOnUse" />
   </defs>
   <path
-     id="hover-center"
+     id="hover-tab-center"
      class="ColorScheme-Highlight"
      d="m 97.00003,62.000051 v 21.999945 h 21.99999 V 62.000051 Z"
      inkscape:connector-curvature="0"
      style="color:#3daee6;opacity:0.2;fill:#aaaaac;fill-opacity:1;stroke-width:0.458333" />
   <g
      style="opacity:1"
-     id="hover-topleft"
+     id="hover-tab-topleft"
      transform="translate(-94.13998,-768.85999)">
     <g
        id="g16"
@@ -171,7 +171,7 @@
     </g>
   </g>
   <g
-     id="hover-topright"
+     id="hover-tab-topright"
      transform="matrix(0,0.8,-0.8,0,158.00119,39.0001)">
     <path
        d="M 6,17 C 3.5,17 2,18.5 2,21 H 6 Z"
@@ -186,9 +186,9 @@
        inkscape:connector-curvature="0" />
   </g>
   <g
-     id="hover-bottomright"
+     id="hover-tab-bottomright"
      transform="matrix(-0.8,0,0,-0.8,142.00001,123.00128)"
-     inkscape:label="hover-bottomright">
+     inkscape:label="hover-tab-bottomright">
     <path
        transform="matrix(1.25,0,0,1.25,21.249876,22.501601)"
        d="M 6,17 C 3.5,17 2,18.5 2,21 H 6 Z"
@@ -204,7 +204,7 @@
        sodipodi:nodetypes="ccccc" />
   </g>
   <g
-     id="hover-bottomleft"
+     id="hover-tab-bottomleft"
      transform="matrix(0,-0.8,0.8,0,57.998634,107)">
     <path
        transform="matrix(1.25,0,0,1.25,21.249876,22.501601)"
@@ -222,7 +222,7 @@
   </g>
   <g
      style="opacity:1"
-     id="hover-top"
+     id="hover-tab-top"
      transform="matrix(0.16793882,0,0,0.99999999,65.068141,-768.85995)">
     <g
        id="g14"
@@ -241,7 +241,7 @@
     </g>
   </g>
   <g
-     id="hover-left"
+     id="hover-tab-left"
      transform="matrix(0,-0.16793888,0.99999999,0,-733.85997,115.93189)">
     <g
        id="g2"
@@ -261,7 +261,7 @@
     </g>
   </g>
   <g
-     id="hover-right"
+     id="hover-tab-right"
      transform="matrix(0,0.16793887,-0.99999999,0,949.85998,30.068109)">
     <g
        id="g10"
@@ -282,7 +282,7 @@
     </g>
   </g>
   <g
-     id="hover-bottom"
+     id="hover-tab-bottom"
      transform="matrix(0.16793882,0,0,-0.99999999,65.068129,914.85999)">
     <g
        id="g6"
@@ -303,14 +303,14 @@
     </g>
   </g>
   <rect
-     id="hover-hint-top-margin"
+     id="hover-tab-hint-top-margin"
      x="108"
      y="56"
      width="2"
      height="5"
      style="fill:#9a06ff;stroke-width:2.23607" />
   <rect
-     id="hover-hint-right-margin"
+     id="hover-tab-hint-right-margin"
      transform="rotate(-90)"
      x="-74"
      y="120"
@@ -318,7 +318,7 @@
      height="5"
      style="fill:#9a06ff;stroke-width:1.58114" />
   <rect
-     id="hover-hint-left-margin"
+     id="hover-tab-hint-left-margin"
      transform="rotate(-90)"
      x="-73"
      y="91"
@@ -330,7 +330,7 @@
      width="2.0000858"
      y="85.055458"
      x="107.99992"
-     id="hover-hint-bottom-margin"
+     id="hover-tab-hint-bottom-margin"
      style="fill:#9a06ff;stroke-width:1.29099" />
   <path
      id="normal-center"
@@ -509,14 +509,14 @@
     </g>
   </g>
   <path
-     id="pressed-center"
+     id="active-tab-center"
      class="ColorScheme-Highlight"
      d="m 97.000052,107.00001 v 21.99994 h 21.999958 v -21.99994 z"
      inkscape:connector-curvature="0"
      style="color:#3daee6;opacity:0;fill:#aaaaac;fill-opacity:1;stroke-width:0.458331" />
   <g
      style="opacity:1"
-     id="pressed-topleft"
+     id="active-tab-topleft"
      transform="translate(-94.13998,-723.86)">
     <g
        id="button-toggled-topleft"
@@ -536,7 +536,7 @@
   </g>
   <g
      style="opacity:1"
-     id="pressed-top"
+     id="active-tab-top"
      transform="matrix(0.66412118,0,0,0.99999999,-94.275883,-723.85996)">
     <g
        id="button-toggled-top"
@@ -556,7 +556,7 @@
   </g>
   <g
      transform="matrix(-0.99999999,0,0,0.99999999,310.14007,-723.85999)"
-     id="pressed-topright"
+     id="active-tab-topright"
      style="opacity:1">
     <g
        id="button-toggled-topright"
@@ -576,7 +576,7 @@
   </g>
   <g
      transform="matrix(0,-0.16793872,0.99999999,0,-733.85996,160.93183)"
-     id="pressed-left"
+     id="active-tab-left"
      style="opacity:1">
     <g
        id="button-toggled-left"
@@ -596,7 +596,7 @@
   </g>
   <g
      transform="matrix(0,0.16793868,-0.99999999,0,949.85998,75.068109)"
-     id="pressed-right"
+     id="active-tab-right"
      style="opacity:1">
     <g
        id="button-toggled-right"
@@ -616,7 +616,7 @@
   </g>
   <g
      transform="matrix(0.66412118,0,0,-0.99999999,-94.275933,959.85999)"
-     id="pressed-bottom"
+     id="active-tab-bottom"
      style="opacity:1">
     <g
        id="button-toggled-bottom"
@@ -637,7 +637,7 @@
   </g>
   <g
      transform="matrix(0.99999999,0,0,-0.99999999,-94.13998,959.85998)"
-     id="pressed-bottomleft"
+     id="active-tab-bottomleft"
      style="opacity:1">
     <g
        id="button-toggled-bottomleft"
@@ -670,7 +670,7 @@
   </g>
   <g
      transform="rotate(180,155.07004,479.93)"
-     id="pressed-bottomright"
+     id="active-tab-bottomright"
      style="opacity:1">
     <g
        id="button-toggled-bottomright"
@@ -696,14 +696,14 @@
     </g>
   </g>
   <rect
-     id="pressed-hint-top-margin"
+     id="active-tab-hint-top-margin"
      x="106.99999"
      y="101"
      width="1.9999999"
      height="5"
      style="fill:#9a06ff;stroke-width:2.23607" />
   <rect
-     id="pressed-hint-right-margin"
+     id="active-tab-hint-right-margin"
      transform="rotate(-90)"
      x="-119"
      y="120"
@@ -711,7 +711,7 @@
      height="5"
      style="fill:#9a06ff;stroke-width:1.58114" />
   <rect
-     id="pressed-hint-left-margin"
+     id="active-tab-hint-left-margin"
      transform="rotate(-90)"
      x="-118.99998"
      y="91"
@@ -723,7 +723,7 @@
      width="1.9989929"
      y="130"
      x="107"
-     id="pressed-hint-bottom-margin"
+     id="active-tab-hint-bottom-margin"
      style="fill:#9a06ff;stroke-width:1.29099" />
   <rect
      y="40"

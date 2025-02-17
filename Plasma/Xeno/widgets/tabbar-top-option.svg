@@ -4,8 +4,8 @@
    width="225"
    height="240"
    version="1.1"
-   sodipodi:docname="tabbar.svg"
-   inkscape:version="1.4 (e7c3feb100, 2024-10-09)"
+   sodipodi:docname="tabbar-top-1.svg"
+   inkscape:version="1.3.2 (091e20ef0f, 2023-11-25, custom)"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -40,8 +40,8 @@
      id="namedview95"
      showgrid="true"
      inkscape:zoom="1.5475731"
-     inkscape:cx="22.939143"
-     inkscape:cy="212.59093"
+     inkscape:cx="22.939142"
+     inkscape:cy="212.91401"
      inkscape:window-x="0"
      inkscape:window-y="22"
      inkscape:window-maximized="1"
@@ -76,7 +76,7 @@
          id="stop920" />
       <stop
          offset="1"
-         style="stop-color:#9900ff;stop-opacity:1"
+         style="stop-color:#7844ff;stop-opacity:1"
          id="stop922" />
     </linearGradient>
     <linearGradient
@@ -96,7 +96,7 @@
          offset="0" />
       <stop
          id="stop989"
-         style="stop-color:#9900ff;stop-opacity:1"
+         style="stop-color:#7844ff;stop-opacity:1"
          offset="1" />
     </linearGradient>
     <linearGradient
@@ -200,7 +200,7 @@
        xlink:href="#linearGradient925" />
   </defs>
   <rect
-     id="hint-stretch-center"
+     id="hint-tile-center"
      style="opacity:1;fill:#66ff00"
      width="40"
      height="40"

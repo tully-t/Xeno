@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="136"
+   height="136.00005"
+   viewBox="0 0 35.983333 35.983346"
+   id="svg2"
+   version="1.1"
+   inkscape:version="1.4 (e7c3feb100, 2024-10-09)"
+   sodipodi:docname="busywidget.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <defs
+     id="defs4">
+    <style
+       type="text/css"
+       id="current-color-scheme">.ColorScheme-Text{color:#dddddd;}.ColorScheme-Background{color:#1a1a1a;}.ColorScheme-Highlight{color:#aaaaac30;}.ColorScheme-ViewText{color:#dddddd;}.ColorScheme-ViewBackground{color:#1a1a1a01;}.ColorScheme-ViewHover{color:#aaaaac30;}.ColorScheme-ViewFocus{color:#aaaaac30;}.ColorScheme-ButtonText{color:#bbbbbb;}.ColorScheme-ButtonBackground{color:#aaaaac20;}.ColorScheme-ButtonHover{color:#aaaaac30;}.ColorScheme-ButtonFocus{color:#aaaaac30;}.ColorScheme-NegativeText { color: #7844ff; } </style>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#1e1e1e"
+     bordercolor="#c90303"
+     borderopacity="1"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="5.78"
+     inkscape:cx="74.567474"
+     inkscape:cy="72.491349"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="true"
+     units="px"
+     inkscape:showpageshadow="false"
+     borderlayer="true"
+     inkscape:window-width="2560"
+     inkscape:window-height="1400"
+     inkscape:window-x="0"
+     inkscape:window-y="40"
+     inkscape:window-maximized="1"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:pagecheckerboard="true"
+     inkscape:deskcolor="#505050">
+    <inkscape:grid
+       type="xygrid"
+       id="grid4511"
+       visible="true"
+       originx="-3.0154418e-07"
+       originy="-3.9858399e-06"
+       spacingx="0.26458333"
+       spacingy="0.26458333"
+       units="px" />
+  </sodipodi:namedview>
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Capa 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0.5291667,-249.37497)">
+    <rect
+       style="fill:#66ff00;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.264583"
+       id="hint-rotation-angle"
+       width="3.7041671"
+       height="3.7041693"
+       x="-0.52916706"
+       y="285.35831" />
+    <g
+       id="busywidget">
+      <rect
+         y="249.37497"
+         x="-0.5291667"
+         height="35.983345"
+         width="35.983334"
+         id="rect4524"
+         style="opacity:1;fill:#550000;fill-opacity:0;stroke:none;stroke-width:2.00739;stroke-opacity:1" />
+      <g
+         id="g4570">
+        <path
+           id="path4533"
+           d="m 17.4625,251.49165 a 15.875,15.875 0 0 0 -15.8749998,15.875 15.875,15.875 0 0 0 15.8749998,15.875 15.875,15.875 0 0 0 15.875,-15.875 15.875,15.875 0 0 0 -15.875,-15.875 z m 0,1.5875 A 14.2875,14.2875 0 0 1 31.75,267.36665 14.2875,14.2875 0 0 1 17.4625,281.65415 14.2875,14.2875 0 0 1 3.1750002,267.36665 14.2875,14.2875 0 0 1 17.4625,253.07915 Z"
+           style="opacity:0.2;fill:#aaaaac;fill-opacity:1;stroke:none;stroke-width:1.72561251;stroke-opacity:1;stroke-dasharray:none"
+           inkscape:connector-curvature="0"
+           inkscape:label="track" />
+        <path
+           style="opacity:0.9;fill:none;fill-opacity:1;stroke:#dddddd;stroke-width:6.5220001;stroke-opacity:1;stroke-dasharray:none"
+           d="m 125,65 a 2.9999998,2.9999998 0 0 0 -3,3 54,54 0 0 1 -54,54 2.9999998,2.9999998 0 0 0 -3,3 2.9999998,2.9999998 0 0 0 3,3 60,60 0 0 0 60,-60 2.9999998,2.9999998 0 0 0 -3,-3 z"
+           transform="matrix(0.26458333,0,0,0.26458333,-0.52916664,249.37498)"
+           id="path4539"
+           inkscape:connector-curvature="0" />
+      </g>
+    </g>
+    <g
+       id="stopped"
+       transform="translate(6.3500028,35.983359)">
+      <circle
+         r="2.1166668"
+         cy="231.38329"
+         cx="-38.100002"
+         id="path4642"
+         style="opacity:1;fill:#dddddd;fill-opacity:1;stroke:none;stroke-width:1.0818;stroke-opacity:1" />
+      <circle
+         style="opacity:1;fill:#dddddd;fill-opacity:1;stroke:none;stroke-width:1.0818;stroke-opacity:1"
+         id="circle4644"
+         cx="-24.870836"
+         cy="231.38329"
+         r="2.1166668" />
+      <circle
+         r="2.1166668"
+         cy="231.38329"
+         cx="-11.377086"
+         id="circle4646"
+         style="opacity:1;fill:#dddddd;fill-opacity:1;stroke:none;stroke-width:1.0818;stroke-opacity:1" />
+      <rect
+         y="213.39162"
+         x="-42.862503"
+         height="35.983334"
+         width="35.983334"
+         id="rect4648"
+         style="opacity:1;fill:#ff00ff;fill-opacity:0;stroke:none;stroke-width:10.4693;stroke-opacity:1" />
+    </g>
+  </g>
+</svg>

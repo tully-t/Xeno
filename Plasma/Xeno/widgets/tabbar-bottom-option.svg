@@ -4,8 +4,8 @@
    width="225"
    height="240"
    version="1.1"
-   sodipodi:docname="tabbar.svg"
-   inkscape:version="1.4 (e7c3feb100, 2024-10-09)"
+   sodipodi:docname="tabbar-bottom-2.svg"
+   inkscape:version="1.3.2 (091e20ef0f, 2023-11-25, custom)"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -39,9 +39,9 @@
      inkscape:window-height="725"
      id="namedview95"
      showgrid="true"
-     inkscape:zoom="1.5475731"
-     inkscape:cx="22.939143"
-     inkscape:cy="212.59093"
+     inkscape:zoom="17.508791"
+     inkscape:cx="3.798092"
+     inkscape:cy="97.808009"
      inkscape:window-x="0"
      inkscape:window-y="22"
      inkscape:window-maximized="1"
@@ -76,7 +76,7 @@
          id="stop920" />
       <stop
          offset="1"
-         style="stop-color:#9900ff;stop-opacity:1"
+         style="stop-color:#7844ff;stop-opacity:1"
          id="stop922" />
     </linearGradient>
     <linearGradient
@@ -96,7 +96,7 @@
          offset="0" />
       <stop
          id="stop989"
-         style="stop-color:#9900ff;stop-opacity:1"
+         style="stop-color:#7844ff;stop-opacity:1"
          offset="1" />
     </linearGradient>
     <linearGradient
@@ -200,25 +200,25 @@
        xlink:href="#linearGradient925" />
   </defs>
   <rect
-     id="hint-stretch-center"
+     id="hint-tile-center"
      style="opacity:1;fill:#66ff00"
      width="40"
      height="40"
      x="0"
      y="-40" />
   <g
-     id="north-active-tab-top"
+     id="south-active-tab-top"
      style="opacity:0.8"
-     transform="matrix(1,0,0,0.99998568,36.00001,-138.35507)">
+     transform="matrix(1,0,0,0.99998568,36.00001,-137.35507)">
     <path
        id="rect3003"
        style="opacity:1;fill:url(#linearGradient922);fill-opacity:1;stroke-width:0.816359"
        d="m 40,360.36162 h 80 v 1.99931 H 40 Z" />
   </g>
   <g
-     id="north-active-tab-topleft"
+     id="south-active-tab-topleft"
      style="opacity:0.8"
-     transform="matrix(1,0,0,0.99925135,36.00001,-138.08895)">
+     transform="matrix(1,0,0,0.99925135,36.00001,-137.08895)">
     <rect
        id="rect3073-5"
        style="opacity:0.00100002;stroke-width:0.68312"
@@ -233,9 +233,9 @@
        sodipodi:nodetypes="cccccc" />
   </g>
   <g
-     id="north-active-tab-topright"
+     id="south-active-tab-topright"
      style="opacity:0.8"
-     transform="matrix(1,0,0,0.99925135,36.00001,-138.08895)">
+     transform="matrix(1,0,0,0.99925135,36.00001,-137.08895)">
     <rect
        id="rect3073-45"
        style="opacity:0.00100002;stroke-width:0.683108"
@@ -250,77 +250,77 @@
        sodipodi:nodetypes="cccccc" />
   </g>
   <rect
-     id="north-active-tab-left"
+     id="south-active-tab-left"
      style="opacity:0.001"
      width="10"
      height="12"
      x="66"
      y="224" />
   <rect
-     id="north-active-tab-center"
+     id="south-active-tab-center"
      style="opacity:0.001"
      width="80"
      height="12"
      x="76"
      y="224" />
   <rect
-     id="north-active-tab-right"
+     id="south-active-tab-right"
      style="opacity:0.001"
      width="10"
      height="12"
      x="156"
      y="224" />
   <rect
-     id="north-active-tab-bottomright"
+     id="south-active-tab-bottomright"
      style="opacity:0.001"
      width="10"
      height="4"
      x="156"
      y="236" />
   <rect
-     id="north-active-tab-bottom"
+     id="south-active-tab-bottom"
      style="opacity:0.001"
      width="80"
      height="4"
      x="76"
      y="236" />
   <rect
-     id="north-active-tab-bottomleft"
+     id="south-active-tab-bottomleft"
      style="opacity:0.001"
      width="10"
      height="4"
      x="66"
      y="236" />
   <rect
-     id="north-active-tab-hint-left-margin"
+     id="south-active-tab-hint-left-margin"
      style="opacity:1;fill:#66ff00"
      width="6"
      height="5"
      x="66"
      y="227" />
   <rect
-     id="north-active-tab-hint-right-margin"
+     id="south-active-tab-hint-right-margin"
      style="opacity:1;fill:#66ff00"
      width="6"
      height="5"
      x="160"
      y="227" />
   <rect
-     id="north-active-tab-hint-top-margin"
+     id="south-active-tab-hint-top-margin"
      style="opacity:1;fill:#66ff00;stroke-width:0.866025"
      width="5"
      height="6"
      x="114"
-     y="222" />
+     y="223" />
   <rect
-     id="north-active-tab-hint-bottom-margin"
+     id="south-active-tab-hint-bottom-margin"
      style="opacity:1;fill:#66ff00;stroke-width:1.22474"
      width="5"
      height="6"
      x="114"
      y="234" />
   <rect
-     id="west-active-tab-bottom"
+     id="east-active-tab-bottom"
      style="opacity:0.001"
      width="10"
      height="12"
@@ -328,7 +328,7 @@
      y="209"
      transform="rotate(-90)" />
   <rect
-     id="west-active-tab-center"
+     id="east-active-tab-center"
      style="opacity:0.001"
      width="80"
      height="12"
@@ -336,7 +336,7 @@
      y="209"
      transform="rotate(-90)" />
   <rect
-     id="west-active-tab-top"
+     id="east-active-tab-top"
      style="opacity:0.001"
      width="10"
      height="12"
@@ -344,7 +344,7 @@
      y="209"
      transform="rotate(-90)" />
   <rect
-     id="west-active-tab-topright"
+     id="east-active-tab-topright"
      style="opacity:0.001"
      width="10"
      height="4"
@@ -352,7 +352,7 @@
      y="221"
      transform="rotate(-90)" />
   <rect
-     id="west-active-tab-right"
+     id="east-active-tab-right"
      style="opacity:0.001"
      width="80"
      height="4"
@@ -360,7 +360,7 @@
      y="221"
      transform="rotate(-90)" />
   <rect
-     id="west-active-tab-bottomright"
+     id="east-active-tab-bottomright"
      style="opacity:0.001"
      width="10"
      height="4"
@@ -368,7 +368,7 @@
      y="221"
      transform="rotate(-90)" />
   <rect
-     id="west-active-tab-hint-bottom-margin"
+     id="east-active-tab-hint-bottom-margin"
      style="opacity:1;fill:#66ff00"
      width="6"
      height="5"
@@ -376,7 +376,7 @@
      y="212"
      transform="rotate(-90)" />
   <rect
-     id="west-active-tab-hint-top-margin"
+     id="east-active-tab-hint-top-margin"
      style="opacity:1;fill:#66ff00"
      width="6"
      height="5"
@@ -384,7 +384,7 @@
      y="212"
      transform="rotate(-90)" />
   <g
-     id="west-active-tab-left"
+     id="east-active-tab-left"
      style="opacity:0.8"
      transform="matrix(0,1,-0.66661476,0,449.55614,26.0022)">
     <path
@@ -393,7 +393,7 @@
        d="m 40,359.36218 h 80 v 3 H 40 Z" />
   </g>
   <rect
-     id="west-active-tab-hint-left-margin"
+     id="east-active-tab-hint-left-margin"
      style="opacity:1;fill:#66ff00;stroke-width:0.866025"
      width="5"
      height="6"
@@ -401,7 +401,7 @@
      y="208"
      transform="rotate(-90)" />
   <rect
-     id="west-active-tab-hint-right-margin"
+     id="east-active-tab-hint-right-margin"
      style="opacity:1;fill:#66ff00;stroke-width:1.22474"
      width="5"
      height="6"
@@ -409,7 +409,7 @@
      y="219"
      transform="rotate(-90)" />
   <rect
-     id="east-active-tab-top"
+     id="west-active-tab-top"
      style="opacity:0.001"
      width="10"
      height="12"
@@ -417,7 +417,7 @@
      y="-16"
      transform="rotate(90)" />
   <rect
-     id="east-active-tab-center"
+     id="west-active-tab-center"
      style="opacity:0.001"
      width="80"
      height="12"
@@ -425,7 +425,7 @@
      y="-16"
      transform="rotate(90)" />
   <rect
-     id="east-active-tab-bottom"
+     id="west-active-tab-bottom"
      style="opacity:0.001"
      width="10"
      height="12"
@@ -433,7 +433,7 @@
      y="-16"
      transform="rotate(90)" />
   <rect
-     id="east-active-tab-bottomleft"
+     id="west-active-tab-bottomleft"
      style="opacity:0.001"
      width="10"
      height="4"
@@ -441,7 +441,7 @@
      y="-4"
      transform="rotate(90)" />
   <rect
-     id="east-active-tab-left"
+     id="west-active-tab-left"
      style="opacity:0.001"
      width="80"
      height="4"
@@ -449,7 +449,7 @@
      y="-4"
      transform="rotate(90)" />
   <rect
-     id="east-active-tab-topleft"
+     id="west-active-tab-topleft"
      style="opacity:0.001"
      width="10"
      height="4"
@@ -457,7 +457,7 @@
      y="-4"
      transform="rotate(90)" />
   <rect
-     id="east-active-tab-hint-top-margin"
+     id="west-active-tab-hint-top-margin"
      style="opacity:1;fill:#66ff00"
      width="6"
      height="5"
@@ -465,7 +465,7 @@
      y="-13"
      transform="rotate(90)" />
   <rect
-     id="east-active-tab-hint-bottom-margin"
+     id="west-active-tab-hint-bottom-margin"
      style="opacity:1;fill:#66ff00"
      width="6"
      height="5"
@@ -473,7 +473,7 @@
      y="-13"
      transform="rotate(90)" />
   <g
-     id="east-active-tab-right"
+     id="west-active-tab-right"
      style="opacity:0.8"
      transform="matrix(0,1,-0.66665429,0,256.5703,26.0022)">
     <path
@@ -482,7 +482,7 @@
        d="m 40,359.36218 h 80 v 3 H 40 Z" />
   </g>
   <g
-     id="east-active-tab-topright"
+     id="west-active-tab-topright"
      style="opacity:0.8"
      transform="matrix(0,1,-0.66616474,0,256.39291,26.002195)">
     <rect
@@ -500,7 +500,7 @@
        sodipodi:nodetypes="ccccccc" />
   </g>
   <g
-     id="east-active-tab-bottomright"
+     id="west-active-tab-bottomright"
      style="opacity:0.8"
      transform="matrix(0,1,-0.66616474,0,256.39291,26.002195)">
     <rect
@@ -518,7 +518,7 @@
        sodipodi:nodetypes="cccccc" />
   </g>
   <rect
-     id="east-active-tab-hint-right-margin"
+     id="west-active-tab-hint-right-margin"
      style="opacity:1;fill:#66ff00;stroke-width:0.866025"
      width="5"
      height="6"
@@ -526,7 +526,7 @@
      y="-17"
      transform="rotate(90)" />
   <rect
-     id="east-active-tab-hint-left-margin"
+     id="west-active-tab-hint-left-margin"
      style="opacity:1;fill:#66ff00;stroke-width:1.22474"
      width="5"
      height="6"
@@ -534,7 +534,7 @@
      y="-6"
      transform="rotate(90)" />
   <rect
-     id="south-active-tab-right"
+     id="north-active-tab-right"
      style="opacity:0.001"
      width="10"
      height="12"
@@ -542,7 +542,7 @@
      y="-16"
      transform="scale(-1)" />
   <rect
-     id="south-active-tab-center"
+     id="north-active-tab-center"
      style="opacity:0.001"
      width="80"
      height="12"
@@ -550,7 +550,7 @@
      y="-16"
      transform="scale(-1)" />
   <rect
-     id="south-active-tab-left"
+     id="north-active-tab-left"
      style="opacity:0.001"
      width="10"
      height="12"
@@ -558,7 +558,7 @@
      y="-16"
      transform="scale(-1)" />
   <rect
-     id="south-active-tab-topleft"
+     id="north-active-tab-topleft"
      style="opacity:0.001"
      width="10"
      height="4"
@@ -566,7 +566,7 @@
      y="-4"
      transform="scale(-1)" />
   <rect
-     id="south-active-tab-top"
+     id="north-active-tab-top"
      style="opacity:0.001"
      width="80"
      height="4"
@@ -574,7 +574,7 @@
      y="-4"
      transform="scale(-1)" />
   <rect
-     id="south-active-tab-topright"
+     id="north-active-tab-topright"
      style="opacity:0.001"
      width="10"
      height="4"
@@ -582,7 +582,7 @@
      y="-4"
      transform="scale(-1)" />
   <rect
-     id="south-focus-hint-right-margin"
+     id="north-focus-hint-right-margin"
      style="opacity:1;fill:#66ff00"
      width="6"
      height="5"
@@ -590,7 +590,7 @@
      y="-13"
      transform="scale(-1)" />
   <rect
-     id="south-focus-hint-left-margin"
+     id="north-focus-hint-left-margin"
      style="opacity:1;fill:#66ff00"
      width="6"
      height="5"
@@ -598,7 +598,7 @@
      y="-13"
      transform="scale(-1)" />
   <g
-     id="south-active-tab-bottom"
+     id="north-active-tab-bottom"
      style="opacity:0.8"
      transform="matrix(1,0,0,0.6668348,43,-224.63371)">
     <path
@@ -607,7 +607,7 @@
        d="m 40,359.36218 h 80 v 3 H 40 Z" />
   </g>
   <rect
-     id="south-focus-hint-bottom-margin"
+     id="north-focus-hint-bottom-margin"
      style="opacity:1;fill:#66ff00;stroke-width:0.866025"
      width="5"
      height="6"
@@ -615,7 +615,7 @@
      y="-17"
      transform="scale(-1)" />
   <rect
-     id="south-focus-hint-top-margin"
+     id="north-focus-hint-top-margin"
      style="opacity:1;fill:#66ff00;stroke-width:1.22474"
      width="5"
      height="6"
@@ -623,7 +623,7 @@
      y="-6"
      transform="scale(-1)" />
   <g
-     id="south-active-tab-bottomleft"
+     id="north-active-tab-bottomleft"
      style="opacity:0.8"
      transform="matrix(1,0,0,0.66634511,43,-224.45626)">
     <rect
@@ -641,7 +641,7 @@
        sodipodi:nodetypes="cccccc" />
   </g>
   <g
-     id="south-active-tab-bottomright"
+     id="north-active-tab-bottomright"
      style="opacity:0.8"
      transform="matrix(1,0,0,0.6663485,-200,-136.49951)">
     <rect
@@ -666,7 +666,7 @@
        sodipodi:nodetypes="ccccccc" />
   </g>
   <g
-     id="west-active-tab-topleft"
+     id="east-active-tab-topleft"
      style="opacity:0.8"
      transform="matrix(0,1,-0.66612524,0,449.37876,26.002195)">
     <rect
@@ -684,7 +684,7 @@
        sodipodi:nodetypes="ccccccc" />
   </g>
   <g
-     id="west-active-tab-bottomleft"
+     id="east-active-tab-bottomleft"
      style="opacity:0.8"
      transform="matrix(0,1,-0.66612524,0,449.37876,26.002195)">
     <rect
