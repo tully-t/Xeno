@@ -73,7 +73,7 @@ Screenshot below depicts a Plasma Panel using the Xeno Plasma theme but without 
             - Shadow (enabled, color: #69000000, strength: 6, x offset: 1, y offset: 1)
         - Blacklist: Netspeed Widget
         - Layout: Background Margin (Spacing: 4, Vertical: 4, Horizontal: 0)
-        - Layout - Extra Margin: Icons-only Task Manager (Vertical: -4, Horizontal: 0)
+        - Layout - Extra Margin: Icons-only Task Manager (Vertical: -8, Horizontal: 0)
     - Icons-only Task Manager (__not__ filling free space on panel, for compatibility with Panel Spacer Extended flexible size, and set icons to appear to the right)
 - Screenshots of Plasma Panel configuration:
 
