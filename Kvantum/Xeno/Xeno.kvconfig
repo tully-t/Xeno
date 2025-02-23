@@ -51,7 +51,7 @@ joined_inactive_tabs=false
 layout_spacing=7
 layout_margin=5
 scrollbar_in_view=true
-transient_scrollbar=false
+transient_scrollbar=true
 transient_groove=false
 submenu_overlap=4
 tooltip_delay=-1
@@ -76,7 +76,7 @@ menu_blur_radius=6
 tooltip_blur_radius=2
 
 [GeneralColors]
-window.color=#1a1a1a00
+window.color=#1a1a1a54
 base.color=#1a1a1a01
 alt.base.color=#333333b4
 button.color=#aaaaac20
